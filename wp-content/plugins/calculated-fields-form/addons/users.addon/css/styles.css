@@ -1,0 +1,9 @@
+.cff-users-permissions-filter{margin-bottom:20px;}
+.cff-users-permissions-filter *{font-family:Arial, Helvetica, sans-serif;font-size:16px;}
+.cff-users-permissions-filter input,
+.cff-users-permissions-filter select{padding:5px 10px;border: 1px solid #333;width:auto !important;height:36px;margin:0;width:100% !important;}
+.cff-users-permissions-filter input[type="submit"]{margin:0 !important;}
+@media screen and (min-width:710px){.cff-users-permissions-filter div{width:25%;padding-right:5px;display: inline-block;}}
+@media screen and (max-width:710px){.cff-users-permissions-filter input[type="submit"]{margin-top:10px !important;}}
+.users-permissions-submissions-list .users-permissions-item-id{white-space:nowrap;}
+.users-permissions-submissions-list .users-permissions-item td{word-break: keep-all !important;}

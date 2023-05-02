@@ -1,0 +1,4998 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-12-26 23:33+0100\n"
+"PO-Revision-Date: 2022-12-26 23:33+0100\n"
+"Last-Translator: CodePeople\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: addons/affiliatewp.addon.php:49
+msgid "Integrate the Affiliate WP with this form"
+msgstr ""
+
+#: addons/affiliatewp.addon.php:50
+msgid "Description"
+msgstr ""
+
+#: addons/affiliatewp.addon.php:52
+msgid "Context"
+msgstr ""
+
+#: addons/affiliatewp.addon.php:54 addons/analytics.addon.php:273
+#: addons/authnet.addon.php:208 addons/autocompleteplaces.php:127
+#: addons/csv.addon.php:127 addons/emma.addon.php:206 addons/eway.addon.php:291
+#: addons/googleplaces.addon.php:150 addons/hubspot.addon.php:212
+#: addons/icalfieldattach.addon.php:119 addons/mailchimp.addon.php:194
+#: addons/mailpoet.addon.php:149 addons/mautic.addon.php:130
+#: addons/mollie.addon.php:102 addons/paypalpro.addon.php:393
+#: addons/paytm.addon.php:120 addons/pdf.addon.php:149
+#: addons/printfriendly.addon.php:157 addons/recaptcha.addon.php:191
+#: addons/redsys-bizum.addon.php:109 addons/redsys.addon.php:109
+#: addons/registrationform.addon.php:308 addons/sagepay.addon.php:168
+#: addons/sagepayments.addon.php:154 addons/salesforce.addon.php:114
+#: addons/serverside.addon.php:106 addons/signature.addon.php:132
+#: addons/skrill.addon.php:115 addons/stripe.addon.php:247
+#: addons/stripe.checkout.addon.php:349 addons/targetpay.ideal.addon.php:101
+#: addons/twilio.addon.php:114 addons/uniquefieldsvalues.addon.php:98
+#: addons/users.addon.php:204 addons/verificationcode.addon.php:159
+#: addons/webhook.addon.php:172 addons/webmerge.addon.php:155
+#: inc/cpcff_admin_int.inc.php:328 inc/cpcff_admin_int.inc.php:392
+#: inc/cpcff_admin_int.inc.php:420 inc/cpcff_admin_int.inc.php:489
+#: inc/cpcff_admin_int.inc.php:629 inc/cpcff_admin_int.inc.php:718
+#: inc/cpcff_admin_int.inc.php:771 inc/cpcff_admin_int.inc.php:837
+msgid "Up to form structure"
+msgstr ""
+
+#: addons/affiliatewp.addon.php:71
+msgid "The add-on allows to integrate the forms with the Affiliate WP plugin"
+msgstr ""
+
+#: addons/analytics.addon.php:139
+msgid "Property ID"
+msgstr ""
+
+#: addons/analytics.addon.php:143
+msgid "Send Fields"
+msgstr ""
+
+#: addons/analytics.addon.php:146 addons/emma.addon.php:165
+#: addons/emma.addon.php:177 addons/emma.addon.php:249
+#: addons/webhook.addon.php:140 addons/webhook.addon.php:210
+#: addons/webmerge.addon.php:126 addons/webmerge.addon.php:196
+msgid "Field"
+msgstr ""
+
+#: addons/analytics.addon.php:146
+msgid "Additional information to send"
+msgstr ""
+
+#: addons/analytics.addon.php:162 addons/analytics.addon.php:304
+msgid "Send the field's label"
+msgstr ""
+
+#: addons/analytics.addon.php:166 addons/analytics.addon.php:304
+msgid "Report only the first time the field gets the focus"
+msgstr ""
+
+#: addons/analytics.addon.php:180 addons/autocompleteplaces.php:126
+#: addons/googleplaces.addon.php:146 addons/signature.addon.php:112
+#: addons/webhook.addon.php:155 addons/webhook.addon.php:193
+msgid "Add field"
+msgstr ""
+
+#: addons/analytics.addon.php:186
+msgid ""
+"Sends a hit of <b>\"Event\"</b> type for every onfocus event triggered by "
+"the field. The hits can include the field's label, and it is possible to "
+"decide if send only one hit by field, or for each <b>\"onfocus\"</b> event "
+"in the field. The hits are sent with the event's category: <b>\"form\"</b>, "
+"and the event action: <b>\"focus\"</b>, the label of the event includes the "
+"form's id, the field's name, and the field's label, if the corresponding "
+"option was ticked."
+msgstr ""
+
+#: addons/analytics.addon.php:195
+msgid "Send Events"
+msgstr ""
+
+#: addons/analytics.addon.php:198
+msgid "Event"
+msgstr ""
+
+#: addons/analytics.addon.php:205
+msgid "Record the \"Load Form\" event"
+msgstr ""
+
+#: addons/analytics.addon.php:214
+msgid "Record the \"Next Page\" event"
+msgstr ""
+
+#: addons/analytics.addon.php:223
+msgid "Record the \"Previous Page\" event"
+msgstr ""
+
+#: addons/analytics.addon.php:232
+msgid "Record the \"Submit\" event"
+msgstr ""
+
+#: addons/analytics.addon.php:239
+msgid ""
+"Sends a hit of <b>\"Event\"</b> type if the form is loaded, or for every "
+"action: <b>\"Next Page\"</b>, <b>\"Previous Page\"</b>, or <b>\"Submit\"</"
+"b>. The hits are sent with the event's category: <b>\"form\"</b>, and the "
+"events' actions: <b>\"load\"</b>, <b>\"next page\"</b>, <b>\"previous "
+"page\"</b>, and <b>\"submit\"</b>, respectively. Each event includes a label "
+"with the form's id, and in case of next and previous page events, the page "
+"number. The events <b>\"next page\"</b> and <b>\"previous page\"</b> allow "
+"to know the pages that are reached by the users, and identify problems in "
+"the form's structure. The <b>\"submit\"</b> event allows to know how many "
+"users complete the form, comparing the amount of <b>\"submit\"</b> events "
+"with the <b>\"load\"</b> events."
+msgstr ""
+
+#: addons/analytics.addon.php:248
+msgid "Send Exceptions"
+msgstr ""
+
+#: addons/analytics.addon.php:251
+msgid "Exception"
+msgstr ""
+
+#: addons/analytics.addon.php:258
+msgid "Record the \"Captcha code\" errors"
+msgstr ""
+
+#: addons/analytics.addon.php:265
+msgid ""
+"Sends a hit of <b>\"Exception\"</b> type in every failed submission by an "
+"incorrect <b>\"CAPTCHA\"</b> code. It allows to know if the <b>\"CAPTCHA\"</"
+"b> images are difficult to read, and modify its settings to solve the issue."
+msgstr ""
+
+#: addons/analytics.addon.php:330
+msgid ""
+"The add-on records the usage statistics of the form with the Google "
+"Analytics service"
+msgstr ""
+
+#: addons/authnet.addon.php:116
+msgid "Enable Authorize.net SIM?"
+msgstr ""
+
+#: addons/authnet.addon.php:118 addons/eway.addon.php:67
+#: addons/mollie.addon.php:75 addons/paypalpro.addon.php:89
+#: addons/paytm.addon.php:79 addons/redsys-bizum.addon.php:75
+#: addons/redsys.addon.php:75 addons/sagepay.addon.php:105
+#: addons/sagepayments.addon.php:90 addons/skrill.addon.php:79
+#: addons/stripe.addon.php:115 addons/stripe.addon.php:183
+#: addons/stripe.checkout.addon.php:93 addons/stripe.checkout.addon.php:210
+#: addons/stripe.checkout.addon.php:226 addons/stripe.checkout.addon.php:242
+#: addons/targetpay.ideal.addon.php:72 inc/cpcff_admin_int.inc.php:411
+#: inc/cpcff_admin_int.inc.php:501 inc/cpcff_admin_int.inc.php:525
+#: inc/cpcff_admin_int.inc.php:683 inc/cpcff_admin_int.inc.php:691
+#: inc/cpcff_admin_int.inc.php:732 inc/cpcff_admin_int.inc.php:785
+msgid "No"
+msgstr ""
+
+#: addons/authnet.addon.php:119 addons/eway.addon.php:68
+#: addons/mollie.addon.php:76 addons/paypalpro.addon.php:90
+#: addons/paytm.addon.php:80 addons/redsys-bizum.addon.php:76
+#: addons/redsys.addon.php:76 addons/sagepay.addon.php:106
+#: addons/sagepayments.addon.php:91 addons/skrill.addon.php:80
+#: addons/stripe.addon.php:116 addons/stripe.addon.php:184
+#: addons/stripe.checkout.addon.php:95 addons/stripe.checkout.addon.php:213
+#: addons/stripe.checkout.addon.php:229 addons/stripe.checkout.addon.php:245
+#: addons/targetpay.ideal.addon.php:73 inc/cpcff_admin_int.inc.php:410
+#: inc/cpcff_admin_int.inc.php:502 inc/cpcff_admin_int.inc.php:526
+#: inc/cpcff_admin_int.inc.php:682 inc/cpcff_admin_int.inc.php:692
+#: inc/cpcff_admin_int.inc.php:731 inc/cpcff_admin_int.inc.php:784
+msgid "Yes"
+msgstr ""
+
+#: addons/authnet.addon.php:120 addons/eway.addon.php:69
+#: addons/mollie.addon.php:77 addons/paypalpro.addon.php:91
+#: addons/paytm.addon.php:81 addons/redsys-bizum.addon.php:77
+#: addons/redsys.addon.php:77 addons/sagepay.addon.php:107
+#: addons/sagepayments.addon.php:92 addons/skrill.addon.php:81
+#: addons/stripe.addon.php:117 addons/stripe.checkout.addon.php:97
+#: addons/targetpay.ideal.addon.php:74
+msgid "Optional: This payment method + Pay Later (submit without payment)"
+msgstr ""
+
+#: addons/authnet.addon.php:121 addons/eway.addon.php:70
+#: addons/mollie.addon.php:78 addons/paypalpro.addon.php:92
+#: addons/paytm.addon.php:82 addons/redsys-bizum.addon.php:78
+#: addons/redsys.addon.php:78 addons/sagepay.addon.php:108
+#: addons/sagepayments.addon.php:93 addons/skrill.addon.php:82
+#: addons/stripe.addon.php:118 addons/stripe.checkout.addon.php:99
+#: addons/targetpay.ideal.addon.php:75
+msgid "Optional: This payment method + Other payment methods (enabled)"
+msgstr ""
+
+#: addons/authnet.addon.php:122 addons/eway.addon.php:71
+#: addons/mollie.addon.php:79 addons/paypalpro.addon.php:93
+#: addons/paytm.addon.php:83 addons/redsys-bizum.addon.php:79
+#: addons/redsys.addon.php:79 addons/sagepay.addon.php:109
+#: addons/sagepayments.addon.php:94 addons/skrill.addon.php:83
+#: addons/stripe.addon.php:119 addons/stripe.checkout.addon.php:101
+#: addons/targetpay.ideal.addon.php:76
+msgid "Optional: This payment method + Other payment methods  + Pay Later "
+msgstr ""
+
+#: addons/authnet.addon.php:125 addons/eway.addon.php:74
+#: addons/mollie.addon.php:82 addons/paypalpro.addon.php:96
+#: addons/paytm.addon.php:86 addons/sagepay.addon.php:112
+#: addons/sagepayments.addon.php:97 addons/skrill.addon.php:86
+#: addons/stripe.addon.php:122 addons/stripe.checkout.addon.php:104
+#: addons/targetpay.ideal.addon.php:79
+msgid "Label for this payment option"
+msgstr ""
+
+#: addons/authnet.addon.php:131
+msgid "Mode:"
+msgstr ""
+
+#: addons/authnet.addon.php:133
+msgid "Prodution"
+msgstr ""
+
+#: addons/authnet.addon.php:134
+msgid "Test"
+msgstr ""
+
+#: addons/authnet.addon.php:139
+msgid "API Username"
+msgstr ""
+
+#: addons/authnet.addon.php:143 addons/hubspot.addon.php:112
+msgid "API Key"
+msgstr ""
+
+#: addons/authnet.addon.php:148 addons/skrill.addon.php:97
+msgid "Receipt URL:"
+msgstr ""
+
+#: addons/authnet.addon.php:154 addons/skrill.addon.php:103
+msgid "Cancel URL:"
+msgstr ""
+
+#: addons/authnet.addon.php:164 addons/eway.addon.php:180
+#: addons/sagepay.addon.php:140
+msgid "First Name"
+msgstr ""
+
+#: addons/authnet.addon.php:168 addons/eway.addon.php:187
+#: addons/sagepay.addon.php:144
+msgid "Last Name"
+msgstr ""
+
+#: addons/authnet.addon.php:172 addons/hubspot.addon.php:147
+msgid "Company"
+msgstr ""
+
+#: addons/authnet.addon.php:176 addons/hubspot.addon.php:155
+#: addons/sagepay.addon.php:148
+msgid "Address"
+msgstr ""
+
+#: addons/authnet.addon.php:180 addons/eway.addon.php:222
+#: addons/hubspot.addon.php:159 addons/sagepay.addon.php:152
+msgid "City"
+msgstr ""
+
+#: addons/authnet.addon.php:184
+msgid "State/Province"
+msgstr ""
+
+#: addons/authnet.addon.php:188 addons/eway.addon.php:243
+#: addons/sagepay.addon.php:160
+msgid "Country"
+msgstr ""
+
+#: addons/authnet.addon.php:192 addons/sagepay.addon.php:164
+msgid "Zip/Postal Code"
+msgstr ""
+
+#: addons/authnet.addon.php:196 addons/eway.addon.php:250
+#: inc/cpcff_admin_int_message_list.inc.php:388 inc/cpcff_widgets.inc.php:169
+msgid "Email"
+msgstr ""
+
+#: addons/authnet.addon.php:200 addons/eway.addon.php:257
+#: addons/hubspot.addon.php:151
+msgid "Phone"
+msgstr ""
+
+#: addons/authnet.addon.php:204 addons/eway.addon.php:278
+msgid "Fax"
+msgstr ""
+
+#: addons/authnet.addon.php:229
+msgid ""
+"The add-on adds support for Authorize.net Server Integration Method payments"
+msgstr ""
+
+#: addons/autocompleteplaces.php:39
+msgid ""
+"If you have your own <a href=\"https://github.com/komoot/photon\" "
+"target=\"_blank\">photon server</a>, enter is URL here"
+msgstr ""
+
+#: addons/autocompleteplaces.php:41
+msgid "The add-on uses by default photon.komoot.io"
+msgstr ""
+
+#: addons/autocompleteplaces.php:143 addons/autocompleteplaces.php:239
+#: addons/googleplaces.addon.php:166 addons/googleplaces.addon.php:241
+#: addons/hubspot.addon.php:180 addons/hubspot.addon.php:199
+#: addons/signature.addon.php:148 addons/signature.addon.php:243
+#: addons/stripe.addon.php:217 addons/stripe.checkout.addon.php:302
+msgid "Field name"
+msgstr ""
+
+#: addons/autocompleteplaces.php:143 addons/autocompleteplaces.php:241
+#: addons/googleplaces.addon.php:166 addons/googleplaces.addon.php:243
+#: addons/signature.addon.php:148 addons/signature.addon.php:245
+msgid "Delete field"
+msgstr ""
+
+#: addons/autocompleteplaces.php:143 addons/autocompleteplaces.php:243
+msgid ""
+"Enter the field name to integrate with Autocomplete Places and apply the "
+"autocomplete behavior"
+msgstr ""
+
+#: addons/autocompleteplaces.php:165
+msgid ""
+"The add-on allows to integrate the input fields in the form with the photon "
+"API to autocomplete the address entered by the users"
+msgstr ""
+
+#: addons/csv.addon.php:56 addons/registrationform.addon.php:119
+msgid "Enabled"
+msgstr ""
+
+#: addons/csv.addon.php:60
+msgid "Enabling the CSV generator in this form"
+msgstr ""
+
+#: addons/csv.addon.php:68
+msgid ""
+"Generate files after payment confirmation (this feature applies only with "
+"payment confirmations from payment gateways)"
+msgstr ""
+
+#: addons/csv.addon.php:69 addons/pdf.addon.php:111
+msgid ""
+"If the checkbox is ticked, and you want to attach the file to the emails, "
+"you should configure the form to send the emails after payment confirmation "
+"too."
+msgstr ""
+
+#: addons/csv.addon.php:73
+msgid "Directory"
+msgstr ""
+
+#: addons/csv.addon.php:76
+msgid ""
+"Enter the directory where storing the CSV file. This directory must be into "
+"the /wp-content/uploads directory. If the directory does not exists, the "
+"plugin creates it"
+msgstr ""
+
+#: addons/csv.addon.php:80
+msgid "File"
+msgstr ""
+
+#: addons/csv.addon.php:85
+msgid ""
+"create a new file CSV file per submission. The files names are generated "
+"with the format &lt;submission id&gt;.csv"
+msgstr ""
+
+#: addons/csv.addon.php:90
+msgid "append the data to an existent CSV file"
+msgstr ""
+
+#: addons/csv.addon.php:91
+msgid "file name"
+msgstr ""
+
+#: addons/csv.addon.php:92
+msgid "If the file does not exists the plugin creates it"
+msgstr ""
+
+#: addons/csv.addon.php:96
+msgid "Include fields"
+msgstr ""
+
+#: addons/csv.addon.php:103
+msgid "Send every field to the CSV file"
+msgstr ""
+
+#: addons/csv.addon.php:109
+msgid "Send only the following fields"
+msgstr ""
+
+#: addons/csv.addon.php:113
+msgid ""
+"Some attributes, such as form ID, submission ID and submission date, are "
+"sent to the CSV file in addition to the list of fields."
+msgstr ""
+
+#: addons/csv.addon.php:120
+msgid "Send file by email"
+msgstr ""
+
+#: addons/csv.addon.php:122 addons/pdf.addon.php:117
+#: addons/printfriendly.addon.php:137
+msgid ""
+"To the email addresses entered through the \"Destination emails\" attribute"
+msgstr ""
+
+#: addons/csv.addon.php:123 addons/pdf.addon.php:118
+#: addons/printfriendly.addon.php:138
+msgid "To the email addresses entered by the user"
+msgstr ""
+
+#: addons/csv.addon.php:197
+msgid ""
+"The add-on allows to generate CSV files dynamically with the submissions"
+msgstr ""
+
+#: addons/dropbox.addon.php:56
+msgid "Redirect URI"
+msgstr ""
+
+#: addons/dropbox.addon.php:59
+msgid "Enter the App Key"
+msgstr ""
+
+#: addons/dropbox.addon.php:63
+msgid "Enter the App Secret"
+msgstr ""
+
+#: addons/dropbox.addon.php:98
+msgid "Delete the local copy of file"
+msgstr ""
+
+#: addons/dropbox.addon.php:100 addons/woocommerce.addon.php:849
+msgid "Save settings"
+msgstr ""
+
+#: addons/dropbox.addon.php:125
+msgid "The add-on allows to copy/move the uploaded files to DropBox"
+msgstr ""
+
+#: addons/dropbox.addon.php:225
+msgid "Invalid response from Dropbox"
+msgstr ""
+
+#: addons/dropbox.addon.php:394
+msgid ""
+"Enable the integration between the \"CFF - DropBox\" add-on and the current "
+"form"
+msgstr ""
+
+#: addons/edd.addon.php:31
+msgid ""
+"The add-on allows integrate the forms with Easy Digital Downloads products"
+msgstr ""
+
+#: addons/edd.addon.php:363 addons/woocommerce.addon.php:863
+#: inc/cpcff_admin_int.inc.php:49 inc/cpcff_admin_int_list.inc.php:225
+#: inc/cpcff_page_builders.inc.php:185
+#: pagebuilders/beaverbuilder/cff/cff/cff.php:9
+#: pagebuilders/beaverbuilder/cff/cff/cff.php:11
+#: pagebuilders/beaverbuilder/cff/cff/cff.php:12
+#: pagebuilders/beaverbuilder/cffvar/cffvar/cffvar.php:11
+#: pagebuilders/beaverbuilder/cffvar/cffvar/cffvar.php:12
+#: pagebuilders/divi/cff.pb.php:10 pagebuilders/elementor/elementor.pb.php:42
+msgid "Calculated Fields Form"
+msgstr ""
+
+#: addons/edd.addon.php:385 addons/woocommerce.addon.php:899
+msgid "Enter the ID of the form"
+msgstr ""
+
+#: addons/edd.addon.php:389 addons/woocommerce.addon.php:903
+#: inc/cpcff_page_builders.inc.php:99
+#: pagebuilders/elementor/elementor.pb.php:59
+msgid "Select a form"
+msgstr ""
+
+#: addons/edd.addon.php:403 addons/woocommerce.addon.php:917
+msgid "Calculate the product price through the form"
+msgstr ""
+
+#: addons/edd.addon.php:411 addons/woocommerce.addon.php:922
+msgid "Minimum price allowed (numbers only)"
+msgstr ""
+
+#: addons/edd.addon.php:419 addons/woocommerce.addon.php:999
+msgid ""
+"The summary section is optional. It is possible to use the special tags "
+"supported by the notification emails."
+msgstr ""
+
+#: addons/edd.addon.php:424 addons/woocommerce.addon.php:1006
+msgid "Activate the summary"
+msgstr ""
+
+#: addons/edd.addon.php:432 addons/woocommerce.addon.php:1014
+msgid "Summary title"
+msgstr ""
+
+#: addons/edd.addon.php:440 addons/users.addon.php:197
+#: addons/woocommerce.addon.php:1022
+msgid "Summary"
+msgstr ""
+
+#: addons/emma.addon.php:37
+msgid "Account ID"
+msgstr ""
+
+#: addons/emma.addon.php:43
+msgid "Public API Key"
+msgstr ""
+
+#: addons/emma.addon.php:49
+msgid "Private API Key"
+msgstr ""
+
+#: addons/emma.addon.php:177 addons/emma.addon.php:249
+msgid "Required"
+msgstr ""
+
+#: addons/emma.addon.php:185
+msgid "Get Fields"
+msgstr ""
+
+#: addons/emma.addon.php:193 addons/emma.addon.php:289
+msgid "Group"
+msgstr ""
+
+#: addons/emma.addon.php:204
+msgid "Get Groups"
+msgstr ""
+
+#: addons/emma.addon.php:325
+msgid ""
+"The add-on submits the collected information to the Emma service to add a "
+"new member"
+msgstr ""
+
+#: addons/emma.addon.php:481
+msgid ""
+"The account id, public key and private key must be defined in the settings "
+"page of the plugin"
+msgstr ""
+
+#: addons/eway.addon.php:64
+msgid "Enable eWay?"
+msgstr ""
+
+#: addons/eway.addon.php:80 addons/stripe.addon.php:135
+#: addons/stripe.checkout.addon.php:110
+msgid "Payment mode?"
+msgstr ""
+
+#: addons/eway.addon.php:83
+msgid "Sandbox Mode"
+msgstr ""
+
+#: addons/eway.addon.php:84 addons/stripe.addon.php:138
+#: addons/stripe.checkout.addon.php:117
+msgid "Live/Production Mode"
+msgstr ""
+
+#: addons/eway.addon.php:90
+msgid "Integration type"
+msgstr ""
+
+#: addons/eway.addon.php:93
+msgid "Shared Page"
+msgstr ""
+
+#: addons/eway.addon.php:94
+msgid "iFrame (client side)"
+msgstr ""
+
+#: addons/eway.addon.php:101
+msgid "eWay Customer API Key"
+msgstr ""
+
+#: addons/eway.addon.php:108
+msgid "eWay Customer Password"
+msgstr ""
+
+#: addons/eway.addon.php:116
+msgid "eWay Customer API Key (Sandbox)"
+msgstr ""
+
+#: addons/eway.addon.php:123
+msgid "eWay Customer Password (Sandbox)"
+msgstr ""
+
+#: addons/eway.addon.php:130
+msgid "eway Theme"
+msgstr ""
+
+#: addons/eway.addon.php:146
+msgid "Payment Details (Optional)"
+msgstr ""
+
+#: addons/eway.addon.php:152
+msgid ""
+"The payment description is taken from the \"Product Name\" attribute in the "
+"\"Payment Settings\" section."
+msgstr ""
+
+#: addons/eway.addon.php:157
+msgid "Invoice Number"
+msgstr ""
+
+#: addons/eway.addon.php:165
+msgid "Customer Details (Optional)"
+msgstr ""
+
+#: addons/eway.addon.php:169
+msgid ""
+"Disable Customer Information Fields on the eWay \"Responsive Shared Page\" "
+"<b>(CustomerReadOnly)</b>"
+msgstr ""
+
+#: addons/eway.addon.php:173
+msgid "Title"
+msgstr ""
+
+#: addons/eway.addon.php:194
+msgid "Company Name"
+msgstr ""
+
+#: addons/eway.addon.php:201
+msgid "Job Description"
+msgstr ""
+
+#: addons/eway.addon.php:208
+msgid "Street 1"
+msgstr ""
+
+#: addons/eway.addon.php:215
+msgid "Street 2"
+msgstr ""
+
+#: addons/eway.addon.php:229 addons/hubspot.addon.php:163
+#: addons/sagepay.addon.php:156
+msgid "State"
+msgstr ""
+
+#: addons/eway.addon.php:236
+msgid "Postal Code"
+msgstr ""
+
+#: addons/eway.addon.php:264
+msgid "Mobile"
+msgstr ""
+
+#: addons/eway.addon.php:271
+msgid "Comments"
+msgstr ""
+
+#: addons/eway.addon.php:285
+msgid "Url"
+msgstr ""
+
+#: addons/eway.addon.php:322
+msgid ""
+"The add-on adds support for eWay payment gateway. It uses \"Responsive "
+"Shared Page\" integration. Only supports one-time payments, not recurring "
+"ones"
+msgstr ""
+
+#: addons/eway.addon.php:419
+msgid "Empty Price"
+msgstr ""
+
+#: addons/googleplaces.addon.php:34
+msgid "Enter the Google Places API Key"
+msgstr ""
+
+#: addons/googleplaces.addon.php:147
+msgid "Limit the searchs to the countries"
+msgstr ""
+
+#: addons/googleplaces.addon.php:149
+msgid ""
+"Used to restrict the places search up to 5 countries. Countries must be "
+"passed as a two-character, <a href=\"https://en.wikipedia.org/wiki/"
+"ISO_3166-1_alpha-2\" target=\"_blank\">ISO 3166-1 Alpha-2 compatible country "
+"code</a>, separated by comma symbols."
+msgstr ""
+
+#: addons/googleplaces.addon.php:166 addons/googleplaces.addon.php:245
+msgid ""
+"Enter the field name to integrate with Google Places and apply the "
+"autocomplete behavior"
+msgstr ""
+
+#: addons/googleplaces.addon.php:188
+msgid ""
+"The add-on allows to integrate the input fields in the form with the Google "
+"Places API to autocomplete the address entered by the users"
+msgstr ""
+
+#: addons/hubspot.addon.php:102
+msgid "Enabling HubSpot Integration"
+msgstr ""
+
+#: addons/hubspot.addon.php:109
+msgid "Integration method"
+msgstr ""
+
+#: addons/hubspot.addon.php:111
+msgid "Private Apps"
+msgstr ""
+
+#: addons/hubspot.addon.php:116
+msgid "HubSpot api key"
+msgstr ""
+
+#: addons/hubspot.addon.php:122
+msgid "HubSpot token access"
+msgstr ""
+
+#: addons/hubspot.addon.php:128 addons/mautic.addon.php:101
+msgid "Fields relationship"
+msgstr ""
+
+#: addons/hubspot.addon.php:131
+msgid "Email (required)"
+msgstr ""
+
+#: addons/hubspot.addon.php:135
+msgid "First name"
+msgstr ""
+
+#: addons/hubspot.addon.php:139
+msgid "Last name"
+msgstr ""
+
+#: addons/hubspot.addon.php:143
+msgid "Website"
+msgstr ""
+
+#: addons/hubspot.addon.php:167
+msgid "Zip"
+msgstr ""
+
+#: addons/hubspot.addon.php:177 addons/hubspot.addon.php:196
+msgid "Additional attribute"
+msgstr ""
+
+#: addons/hubspot.addon.php:180 addons/hubspot.addon.php:199
+msgid "Delete pair"
+msgstr ""
+
+#: addons/hubspot.addon.php:180 addons/hubspot.addon.php:199
+#: addons/registrationform.addon.php:247 addons/registrationform.addon.php:261
+#: addons/users.addon.php:460 inc/cpcff_admin_int_list.inc.php:456
+#: inc/cpcff_admin_int_message_list.inc.php:475 inc/cpcff_discounts.inc.php:241
+msgid "Delete"
+msgstr ""
+
+#: addons/hubspot.addon.php:188
+msgid "Add new field"
+msgstr ""
+
+#: addons/hubspot.addon.php:233
+msgid ""
+"The add-on allows to create/update HubSpot contacts from the website forms"
+msgstr ""
+
+#: addons/icalfieldattach.addon.php:72
+msgid "ID of the field that contains the date"
+msgstr ""
+
+#: addons/icalfieldattach.addon.php:78
+msgid "iCal entry summary"
+msgstr ""
+
+#: addons/icalfieldattach.addon.php:85
+msgid "iCal entry description"
+msgstr ""
+
+#: addons/icalfieldattach.addon.php:92
+msgid "iCal timezone difference vs server time"
+msgstr ""
+
+#: addons/icalfieldattach.addon.php:103
+msgid "Observe daylight saving time?"
+msgstr ""
+
+#: addons/icalfieldattach.addon.php:111
+msgid "Daylight saving time zone"
+msgstr ""
+
+#: addons/icalfieldattach.addon.php:134
+msgid "The add-on allows to attach an iCal file with the date of a field"
+msgstr ""
+
+#: addons/ip2location.addon.php:38
+msgid "Database file"
+msgstr ""
+
+#: addons/ip2location.addon.php:44
+msgid ""
+"Upload the BIN file, with the database distributed by ip2location, to the "
+"WordPress directory: \"/wp-content/uploads\" through FTP, and enter the file "
+"name in the following input box"
+msgstr ""
+
+#: addons/ip2location.addon.php:64
+msgid "Get from each submission"
+msgstr ""
+
+#: addons/ip2location.addon.php:78
+msgid "IP Number"
+msgstr ""
+
+#: addons/ip2location.addon.php:86
+msgid "IP Version"
+msgstr ""
+
+#: addons/ip2location.addon.php:94
+msgid "IP Address"
+msgstr ""
+
+#: addons/ip2location.addon.php:102
+msgid "Country Code"
+msgstr ""
+
+#: addons/ip2location.addon.php:110
+msgid "Country Name"
+msgstr ""
+
+#: addons/ip2location.addon.php:118
+msgid "Region Name"
+msgstr ""
+
+#: addons/ip2location.addon.php:130
+msgid "City Name"
+msgstr ""
+
+#: addons/ip2location.addon.php:138
+msgid "Latitude"
+msgstr ""
+
+#: addons/ip2location.addon.php:146
+msgid "Longitude"
+msgstr ""
+
+#: addons/ip2location.addon.php:154
+msgid "Area Code"
+msgstr ""
+
+#: addons/ip2location.addon.php:162
+msgid "IDD Code"
+msgstr ""
+
+#: addons/ip2location.addon.php:170
+msgid "Weather Station Code"
+msgstr ""
+
+#: addons/ip2location.addon.php:182
+msgid "Weather Station Name"
+msgstr ""
+
+#: addons/ip2location.addon.php:190
+msgid "MCC"
+msgstr ""
+
+#: addons/ip2location.addon.php:198
+msgid "MNC"
+msgstr ""
+
+#: addons/ip2location.addon.php:206
+msgid "Mobile Carrier"
+msgstr ""
+
+#: addons/ip2location.addon.php:214
+msgid "Usage Type"
+msgstr ""
+
+#: addons/ip2location.addon.php:222
+msgid "Elevation"
+msgstr ""
+
+#: addons/ip2location.addon.php:234
+msgid "Net Speed"
+msgstr ""
+
+#: addons/ip2location.addon.php:242
+msgid "Time Zone"
+msgstr ""
+
+#: addons/ip2location.addon.php:250
+msgid "ZIP Code"
+msgstr ""
+
+#: addons/ip2location.addon.php:258
+msgid "Domain Name"
+msgstr ""
+
+#: addons/ip2location.addon.php:266
+msgid "ISP Name"
+msgstr ""
+
+#: addons/ip2location.addon.php:319
+msgid ""
+"The add-on allows identify additional data of users, and receive the data in "
+"the notification email"
+msgstr ""
+
+#: addons/mailchimp.addon.php:108
+msgid "API KEY"
+msgstr ""
+
+#: addons/mailchimp.addon.php:110
+msgid "Get Lists"
+msgstr ""
+
+#: addons/mailchimp.addon.php:113
+msgid "List ID"
+msgstr ""
+
+#: addons/mailchimp.addon.php:117
+msgid "Get Fields and Groups"
+msgstr ""
+
+#: addons/mailchimp.addon.php:124
+msgid "Form Fields"
+msgstr ""
+
+#: addons/mailchimp.addon.php:141 addons/mailchimp.addon.php:202
+msgid "There are not fields selected"
+msgstr ""
+
+#: addons/mailchimp.addon.php:147
+msgid "Groups"
+msgstr ""
+
+#: addons/mailchimp.addon.php:172 addons/mailchimp.addon.php:203
+msgid "There are not groups selected"
+msgstr ""
+
+#: addons/mailchimp.addon.php:179
+msgid "Members Tags"
+msgstr ""
+
+#: addons/mailchimp.addon.php:185
+msgid "Status If New"
+msgstr ""
+
+#: addons/mailchimp.addon.php:188
+msgid "Pending"
+msgstr ""
+
+#: addons/mailchimp.addon.php:189
+msgid "Subscribed"
+msgstr ""
+
+#: addons/mailchimp.addon.php:198
+msgid "Invalid API KEY"
+msgstr ""
+
+#: addons/mailchimp.addon.php:199
+msgid "Select a List"
+msgstr ""
+
+#: addons/mailchimp.addon.php:200
+msgid "Select a List ID"
+msgstr ""
+
+#: addons/mailchimp.addon.php:201
+msgid "Create at least a list in your MailChimp account"
+msgstr ""
+
+#: addons/mailchimp.addon.php:222
+msgid ""
+"The add-on creates MailChimp List members with the submitted information"
+msgstr ""
+
+#: addons/mailchimp.addon.php:408
+msgid "Please select..."
+msgstr ""
+
+#: addons/mailpoet.addon.php:64
+msgid ""
+"MailPoet plugin is required to use the add-on, please install and activate "
+"the MailPoet plugin"
+msgstr ""
+
+#: addons/mailpoet.addon.php:86 addons/mailpoet.addon.php:94
+#: addons/mailpoet.addon.php:181 addons/verificationcode.addon.php:96
+#: addons/verificationcode.addon.php:97
+msgid "Email field"
+msgstr ""
+
+#: addons/mailpoet.addon.php:102
+msgid "Add new Email"
+msgstr ""
+
+#: addons/mailpoet.addon.php:109
+msgid "Must be created at least a mailing list in MailPoet"
+msgstr ""
+
+#: addons/mailpoet.addon.php:113
+msgid "Mailing lists"
+msgstr ""
+
+#: addons/mailpoet.addon.php:132
+msgid "Allow the users select the mailing lists at runtime"
+msgstr ""
+
+#: addons/mailpoet.addon.php:135
+msgid ""
+"Insert a \"HTML Content\" field in the form with a &lt;DIV&gt; tag as its "
+"content, for example: &lt;div id=\"<b>mailpoet_container</b>\"&gt;&lt;/"
+"div&gt;, and enter the DIV id: <b>mailpoet_container</b> as the text in the "
+"box"
+msgstr ""
+
+#: addons/mailpoet.addon.php:139
+msgid "Set the Mailing Lists required"
+msgstr ""
+
+#: addons/mailpoet.addon.php:211
+msgid "The add-on adds new subscribers to MailPoet newsletters"
+msgstr ""
+
+#: addons/mautic.addon.php:85
+msgid "Enabling Mautic Integration"
+msgstr ""
+
+#: addons/mautic.addon.php:92
+msgid "Mautic url"
+msgstr ""
+
+#: addons/mautic.addon.php:98
+msgid "Mautic form id"
+msgstr ""
+
+#: addons/mautic.addon.php:123 addons/salesforce.addon.php:107
+msgid "Add attribute"
+msgstr ""
+
+#: addons/mautic.addon.php:170
+msgid "The add-on allows to integrate Mautic forms with the website forms"
+msgstr ""
+
+#: addons/mollie.addon.php:73
+msgid "Enable iDeal-Mollie? (if enabled PayPal Standard is disabled)"
+msgstr ""
+
+#: addons/mollie.addon.php:88
+msgid "Mollie API Key"
+msgstr ""
+
+#: addons/mollie.addon.php:92 addons/targetpay.ideal.addon.php:89
+msgid "If payment fails return to this page"
+msgstr ""
+
+#: addons/mollie.addon.php:97
+msgid "If payment is still pending return to this page"
+msgstr ""
+
+#: addons/mollie.addon.php:123
+msgid "The add-on adds support for iDeal via Mollie payments"
+msgstr ""
+
+#: addons/paypalpro.addon.php:87
+msgid "Enable PayPal Pro? (if enabled PayPal Standard is disabled)"
+msgstr ""
+
+#: addons/paypalpro.addon.php:102
+msgid "PayPal Pro - API UserName"
+msgstr ""
+
+#: addons/paypalpro.addon.php:106
+msgid "PayPal Pro - API Password"
+msgstr ""
+
+#: addons/paypalpro.addon.php:110
+msgid "PayPal Pro - API Signature"
+msgstr ""
+
+#: addons/paypalpro.addon.php:114
+msgid "PayPal Pro - Currency"
+msgstr ""
+
+#: addons/paypalpro.addon.php:118
+msgid "Billing Period"
+msgstr ""
+
+#: addons/paypalpro.addon.php:120
+msgid "One-time payment"
+msgstr ""
+
+#: addons/paypalpro.addon.php:121
+msgid "Daily"
+msgstr ""
+
+#: addons/paypalpro.addon.php:122
+msgid "Weekly"
+msgstr ""
+
+#: addons/paypalpro.addon.php:123
+msgid "SemiMonth"
+msgstr ""
+
+#: addons/paypalpro.addon.php:124
+msgid "Monthly"
+msgstr ""
+
+#: addons/paypalpro.addon.php:125
+msgid "Yearly"
+msgstr ""
+
+#: addons/paypalpro.addon.php:130 inc/cpcff_admin_int.inc.php:514
+msgid "Paypal Mode"
+msgstr ""
+
+#: addons/paypalpro.addon.php:132 addons/paytm.addon.php:114
+#: addons/redsys-bizum.addon.php:99 addons/redsys.addon.php:99
+#: addons/sagepay.addon.php:130 inc/cpcff_admin_int.inc.php:516
+msgid "Production - real payments processed"
+msgstr ""
+
+#: addons/paypalpro.addon.php:133 inc/cpcff_admin_int.inc.php:517
+msgid "SandBox - PayPal testing sandbox area"
+msgstr ""
+
+#: addons/paypalpro.addon.php:138
+msgid "Default Country"
+msgstr ""
+
+#: addons/paypalpro.addon.php:414
+msgid ""
+"The add-on adds support for PayPal Payment Pro payments to accept credit "
+"cars directly into the website"
+msgstr ""
+
+#: addons/paypalpro.addon.php:556 addons/sagepayments.addon.php:122
+msgid "First Name:"
+msgstr ""
+
+#: addons/paypalpro.addon.php:563 addons/sagepayments.addon.php:126
+msgid "Last Name:"
+msgstr ""
+
+#: addons/paypalpro.addon.php:570 addons/sagepayments.addon.php:130
+msgid "Address:"
+msgstr ""
+
+#: addons/paypalpro.addon.php:578 addons/sagepayments.addon.php:134
+msgid "City:"
+msgstr ""
+
+#: addons/paypalpro.addon.php:585 addons/sagepayments.addon.php:138
+msgid "State:"
+msgstr ""
+
+#: addons/paypalpro.addon.php:592
+msgid "Zip Code:"
+msgstr ""
+
+#: addons/paypalpro.addon.php:599
+msgid "Country:"
+msgstr ""
+
+#: addons/paypalpro.addon.php:602
+msgid "Afghanistan"
+msgstr ""
+
+#: addons/paypalpro.addon.php:603
+msgid "Åland Islands"
+msgstr ""
+
+#: addons/paypalpro.addon.php:604
+msgid "Albania"
+msgstr ""
+
+#: addons/paypalpro.addon.php:605
+msgid "Algeria"
+msgstr ""
+
+#: addons/paypalpro.addon.php:606
+msgid "American Samoa"
+msgstr ""
+
+#: addons/paypalpro.addon.php:607
+msgid "Andorra"
+msgstr ""
+
+#: addons/paypalpro.addon.php:608
+msgid "Angola"
+msgstr ""
+
+#: addons/paypalpro.addon.php:609
+msgid "Anguilla"
+msgstr ""
+
+#: addons/paypalpro.addon.php:610
+msgid "Antarctica"
+msgstr ""
+
+#: addons/paypalpro.addon.php:611
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: addons/paypalpro.addon.php:612
+msgid "Argentina"
+msgstr ""
+
+#: addons/paypalpro.addon.php:613
+msgid "Armenia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:614
+msgid "Aruba"
+msgstr ""
+
+#: addons/paypalpro.addon.php:615
+msgid "Australia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:616
+msgid "Austria"
+msgstr ""
+
+#: addons/paypalpro.addon.php:617
+msgid "Azerbaijan"
+msgstr ""
+
+#: addons/paypalpro.addon.php:618
+msgid "Bahamas"
+msgstr ""
+
+#: addons/paypalpro.addon.php:619
+msgid "Bahrain"
+msgstr ""
+
+#: addons/paypalpro.addon.php:620
+msgid "Bangladesh"
+msgstr ""
+
+#: addons/paypalpro.addon.php:621
+msgid "Barbados"
+msgstr ""
+
+#: addons/paypalpro.addon.php:622
+msgid "Belarus"
+msgstr ""
+
+#: addons/paypalpro.addon.php:623
+msgid "Belgium"
+msgstr ""
+
+#: addons/paypalpro.addon.php:624
+msgid "Belize"
+msgstr ""
+
+#: addons/paypalpro.addon.php:625
+msgid "Benin"
+msgstr ""
+
+#: addons/paypalpro.addon.php:626
+msgid "Bermuda"
+msgstr ""
+
+#: addons/paypalpro.addon.php:627
+msgid "Bhutan"
+msgstr ""
+
+#: addons/paypalpro.addon.php:628
+msgid "Bolivia, Plurinational State of"
+msgstr ""
+
+#: addons/paypalpro.addon.php:629
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr ""
+
+#: addons/paypalpro.addon.php:630
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: addons/paypalpro.addon.php:631
+msgid "Botswana"
+msgstr ""
+
+#: addons/paypalpro.addon.php:632
+msgid "Bouvet Island"
+msgstr ""
+
+#: addons/paypalpro.addon.php:633
+msgid "Brazil"
+msgstr ""
+
+#: addons/paypalpro.addon.php:634
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: addons/paypalpro.addon.php:635
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: addons/paypalpro.addon.php:636
+msgid "Bulgaria"
+msgstr ""
+
+#: addons/paypalpro.addon.php:637
+msgid "Burkina Faso"
+msgstr ""
+
+#: addons/paypalpro.addon.php:638
+msgid "Burundi"
+msgstr ""
+
+#: addons/paypalpro.addon.php:639
+msgid "Cambodia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:640
+msgid "Cameroon"
+msgstr ""
+
+#: addons/paypalpro.addon.php:641
+msgid "Canada"
+msgstr ""
+
+#: addons/paypalpro.addon.php:642
+msgid "Cape Verde"
+msgstr ""
+
+#: addons/paypalpro.addon.php:643
+msgid "Cayman Islands"
+msgstr ""
+
+#: addons/paypalpro.addon.php:644
+msgid "Central African Republic"
+msgstr ""
+
+#: addons/paypalpro.addon.php:645
+msgid "Chad"
+msgstr ""
+
+#: addons/paypalpro.addon.php:646
+msgid "Chile"
+msgstr ""
+
+#: addons/paypalpro.addon.php:647
+msgid "China"
+msgstr ""
+
+#: addons/paypalpro.addon.php:648
+msgid "Christmas Island"
+msgstr ""
+
+#: addons/paypalpro.addon.php:649
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: addons/paypalpro.addon.php:650
+msgid "Colombia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:651
+msgid "Comoros"
+msgstr ""
+
+#: addons/paypalpro.addon.php:652
+msgid "Congo"
+msgstr ""
+
+#: addons/paypalpro.addon.php:653
+msgid "Congo, the Democratic Republic of the"
+msgstr ""
+
+#: addons/paypalpro.addon.php:654
+msgid "Cook Islands"
+msgstr ""
+
+#: addons/paypalpro.addon.php:655
+msgid "Costa Rica"
+msgstr ""
+
+#: addons/paypalpro.addon.php:656
+msgid "Côte d'Ivoire"
+msgstr ""
+
+#: addons/paypalpro.addon.php:657
+msgid "Croatia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:658
+msgid "Cuba"
+msgstr ""
+
+#: addons/paypalpro.addon.php:659
+msgid "Curaçao"
+msgstr ""
+
+#: addons/paypalpro.addon.php:660
+msgid "Cyprus"
+msgstr ""
+
+#: addons/paypalpro.addon.php:661
+msgid "Czech Republic"
+msgstr ""
+
+#: addons/paypalpro.addon.php:662
+msgid "Denmark"
+msgstr ""
+
+#: addons/paypalpro.addon.php:663
+msgid "Djibouti"
+msgstr ""
+
+#: addons/paypalpro.addon.php:664
+msgid "Dominica"
+msgstr ""
+
+#: addons/paypalpro.addon.php:665
+msgid "Dominican Republic"
+msgstr ""
+
+#: addons/paypalpro.addon.php:666
+msgid "Ecuador"
+msgstr ""
+
+#: addons/paypalpro.addon.php:667
+msgid "Egypt"
+msgstr ""
+
+#: addons/paypalpro.addon.php:668
+msgid "El Salvador"
+msgstr ""
+
+#: addons/paypalpro.addon.php:669
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: addons/paypalpro.addon.php:670
+msgid "Eritrea"
+msgstr ""
+
+#: addons/paypalpro.addon.php:671
+msgid "Estonia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:672
+msgid "Ethiopia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:673
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+#: addons/paypalpro.addon.php:674
+msgid "Faroe Islands"
+msgstr ""
+
+#: addons/paypalpro.addon.php:675
+msgid "Fiji"
+msgstr ""
+
+#: addons/paypalpro.addon.php:676
+msgid "Finland"
+msgstr ""
+
+#: addons/paypalpro.addon.php:677
+msgid "France"
+msgstr ""
+
+#: addons/paypalpro.addon.php:678
+msgid "French Guiana"
+msgstr ""
+
+#: addons/paypalpro.addon.php:679
+msgid "French Polynesia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:680
+msgid "French Southern Territories"
+msgstr ""
+
+#: addons/paypalpro.addon.php:681
+msgid "Gabon"
+msgstr ""
+
+#: addons/paypalpro.addon.php:682
+msgid "Gambia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:683
+msgid "Georgia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:684
+msgid "Germany"
+msgstr ""
+
+#: addons/paypalpro.addon.php:685
+msgid "Ghana"
+msgstr ""
+
+#: addons/paypalpro.addon.php:686
+msgid "Gibraltar"
+msgstr ""
+
+#: addons/paypalpro.addon.php:687
+msgid "Greece"
+msgstr ""
+
+#: addons/paypalpro.addon.php:688
+msgid "Greenland"
+msgstr ""
+
+#: addons/paypalpro.addon.php:689
+msgid "Grenada"
+msgstr ""
+
+#: addons/paypalpro.addon.php:690
+msgid "Guadeloupe"
+msgstr ""
+
+#: addons/paypalpro.addon.php:691
+msgid "Guam"
+msgstr ""
+
+#: addons/paypalpro.addon.php:692
+msgid "Guatemala"
+msgstr ""
+
+#: addons/paypalpro.addon.php:693
+msgid "Guernsey"
+msgstr ""
+
+#: addons/paypalpro.addon.php:694
+msgid "Guinea"
+msgstr ""
+
+#: addons/paypalpro.addon.php:695
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: addons/paypalpro.addon.php:696
+msgid "Guyana"
+msgstr ""
+
+#: addons/paypalpro.addon.php:697
+msgid "Haiti"
+msgstr ""
+
+#: addons/paypalpro.addon.php:698
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: addons/paypalpro.addon.php:699
+msgid "Holy See (Vatican City State)"
+msgstr ""
+
+#: addons/paypalpro.addon.php:700
+msgid "Honduras"
+msgstr ""
+
+#: addons/paypalpro.addon.php:701
+msgid "Hong Kong"
+msgstr ""
+
+#: addons/paypalpro.addon.php:702
+msgid "Hungary"
+msgstr ""
+
+#: addons/paypalpro.addon.php:703
+msgid "Iceland"
+msgstr ""
+
+#: addons/paypalpro.addon.php:704
+msgid "India"
+msgstr ""
+
+#: addons/paypalpro.addon.php:705
+msgid "Indonesia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:706
+msgid "Iran, Islamic Republic of"
+msgstr ""
+
+#: addons/paypalpro.addon.php:707
+msgid "Iraq"
+msgstr ""
+
+#: addons/paypalpro.addon.php:708
+msgid "Ireland"
+msgstr ""
+
+#: addons/paypalpro.addon.php:709
+msgid "Isle of Man"
+msgstr ""
+
+#: addons/paypalpro.addon.php:710
+msgid "Israel"
+msgstr ""
+
+#: addons/paypalpro.addon.php:711
+msgid "Italy"
+msgstr ""
+
+#: addons/paypalpro.addon.php:712
+msgid "Jamaica"
+msgstr ""
+
+#: addons/paypalpro.addon.php:713
+msgid "Japan"
+msgstr ""
+
+#: addons/paypalpro.addon.php:714
+msgid "Jersey"
+msgstr ""
+
+#: addons/paypalpro.addon.php:715
+msgid "Jordan"
+msgstr ""
+
+#: addons/paypalpro.addon.php:716
+msgid "Kazakhstan"
+msgstr ""
+
+#: addons/paypalpro.addon.php:717
+msgid "Kenya"
+msgstr ""
+
+#: addons/paypalpro.addon.php:718
+msgid "Kiribati"
+msgstr ""
+
+#: addons/paypalpro.addon.php:719
+msgid "Korea, Democratic People's Republic of"
+msgstr ""
+
+#: addons/paypalpro.addon.php:720
+msgid "Korea, Republic of"
+msgstr ""
+
+#: addons/paypalpro.addon.php:721
+msgid "Kuwait"
+msgstr ""
+
+#: addons/paypalpro.addon.php:722
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: addons/paypalpro.addon.php:723
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+#: addons/paypalpro.addon.php:724
+msgid "Latvia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:725
+msgid "Lebanon"
+msgstr ""
+
+#: addons/paypalpro.addon.php:726
+msgid "Lesotho"
+msgstr ""
+
+#: addons/paypalpro.addon.php:727
+msgid "Liberia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:728
+msgid "Libya"
+msgstr ""
+
+#: addons/paypalpro.addon.php:729
+msgid "Liechtenstein"
+msgstr ""
+
+#: addons/paypalpro.addon.php:730
+msgid "Lithuania"
+msgstr ""
+
+#: addons/paypalpro.addon.php:731
+msgid "Luxembourg"
+msgstr ""
+
+#: addons/paypalpro.addon.php:732
+msgid "Macao"
+msgstr ""
+
+#: addons/paypalpro.addon.php:733
+msgid "Macedonia, the former Yugoslav Republic of"
+msgstr ""
+
+#: addons/paypalpro.addon.php:734
+msgid "Madagascar"
+msgstr ""
+
+#: addons/paypalpro.addon.php:735
+msgid "Malawi"
+msgstr ""
+
+#: addons/paypalpro.addon.php:736
+msgid "Malaysia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:737
+msgid "Maldives"
+msgstr ""
+
+#: addons/paypalpro.addon.php:738
+msgid "Mali"
+msgstr ""
+
+#: addons/paypalpro.addon.php:739
+msgid "Malta"
+msgstr ""
+
+#: addons/paypalpro.addon.php:740
+msgid "Marshall Islands"
+msgstr ""
+
+#: addons/paypalpro.addon.php:741
+msgid "Martinique"
+msgstr ""
+
+#: addons/paypalpro.addon.php:742
+msgid "Mauritania"
+msgstr ""
+
+#: addons/paypalpro.addon.php:743
+msgid "Mauritius"
+msgstr ""
+
+#: addons/paypalpro.addon.php:744
+msgid "Mayotte"
+msgstr ""
+
+#: addons/paypalpro.addon.php:745
+msgid "Mexico"
+msgstr ""
+
+#: addons/paypalpro.addon.php:746
+msgid "Micronesia, Federated States of"
+msgstr ""
+
+#: addons/paypalpro.addon.php:747
+msgid "Moldova, Republic of"
+msgstr ""
+
+#: addons/paypalpro.addon.php:748
+msgid "Monaco"
+msgstr ""
+
+#: addons/paypalpro.addon.php:749
+msgid "Mongolia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:750
+msgid "Montenegro"
+msgstr ""
+
+#: addons/paypalpro.addon.php:751
+msgid "Montserrat"
+msgstr ""
+
+#: addons/paypalpro.addon.php:752
+msgid "Morocco"
+msgstr ""
+
+#: addons/paypalpro.addon.php:753
+msgid "Mozambique"
+msgstr ""
+
+#: addons/paypalpro.addon.php:754
+msgid "Myanmar"
+msgstr ""
+
+#: addons/paypalpro.addon.php:755
+msgid "Namibia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:756
+msgid "Nauru"
+msgstr ""
+
+#: addons/paypalpro.addon.php:757
+msgid "Nepal"
+msgstr ""
+
+#: addons/paypalpro.addon.php:758
+msgid "Netherlands"
+msgstr ""
+
+#: addons/paypalpro.addon.php:759
+msgid "New Caledonia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:760
+msgid "New Zealand"
+msgstr ""
+
+#: addons/paypalpro.addon.php:761
+msgid "Nicaragua"
+msgstr ""
+
+#: addons/paypalpro.addon.php:762
+msgid "Niger"
+msgstr ""
+
+#: addons/paypalpro.addon.php:763
+msgid "Nigeria"
+msgstr ""
+
+#: addons/paypalpro.addon.php:764
+msgid "Niue"
+msgstr ""
+
+#: addons/paypalpro.addon.php:765
+msgid "Norfolk Island"
+msgstr ""
+
+#: addons/paypalpro.addon.php:766
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: addons/paypalpro.addon.php:767
+msgid "Norway"
+msgstr ""
+
+#: addons/paypalpro.addon.php:768
+msgid "Oman"
+msgstr ""
+
+#: addons/paypalpro.addon.php:769
+msgid "Pakistan"
+msgstr ""
+
+#: addons/paypalpro.addon.php:770
+msgid "Palau"
+msgstr ""
+
+#: addons/paypalpro.addon.php:771
+msgid "Palestinian Territory, Occupied"
+msgstr ""
+
+#: addons/paypalpro.addon.php:772
+msgid "Panama"
+msgstr ""
+
+#: addons/paypalpro.addon.php:773
+msgid "Papua New Guinea"
+msgstr ""
+
+#: addons/paypalpro.addon.php:774
+msgid "Paraguay"
+msgstr ""
+
+#: addons/paypalpro.addon.php:775
+msgid "Peru"
+msgstr ""
+
+#: addons/paypalpro.addon.php:776
+msgid "Philippines"
+msgstr ""
+
+#: addons/paypalpro.addon.php:777
+msgid "Pitcairn"
+msgstr ""
+
+#: addons/paypalpro.addon.php:778
+msgid "Poland"
+msgstr ""
+
+#: addons/paypalpro.addon.php:779
+msgid "Portugal"
+msgstr ""
+
+#: addons/paypalpro.addon.php:780
+msgid "Puerto Rico"
+msgstr ""
+
+#: addons/paypalpro.addon.php:781
+msgid "Qatar"
+msgstr ""
+
+#: addons/paypalpro.addon.php:782
+msgid "Réunion"
+msgstr ""
+
+#: addons/paypalpro.addon.php:783
+msgid "Romania"
+msgstr ""
+
+#: addons/paypalpro.addon.php:784
+msgid "Russian Federation"
+msgstr ""
+
+#: addons/paypalpro.addon.php:785
+msgid "Rwanda"
+msgstr ""
+
+#: addons/paypalpro.addon.php:786
+msgid "Saint Barthélemy"
+msgstr ""
+
+#: addons/paypalpro.addon.php:787
+msgid "Saint Helena, Ascension and Tristan da Cunha"
+msgstr ""
+
+#: addons/paypalpro.addon.php:788
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: addons/paypalpro.addon.php:789
+msgid "Saint Lucia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:790
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#: addons/paypalpro.addon.php:791
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: addons/paypalpro.addon.php:792
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: addons/paypalpro.addon.php:793
+msgid "Samoa"
+msgstr ""
+
+#: addons/paypalpro.addon.php:794
+msgid "San Marino"
+msgstr ""
+
+#: addons/paypalpro.addon.php:795
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: addons/paypalpro.addon.php:796
+msgid "Saudi Arabia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:797
+msgid "Senegal"
+msgstr ""
+
+#: addons/paypalpro.addon.php:798
+msgid "Serbia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:799
+msgid "Seychelles"
+msgstr ""
+
+#: addons/paypalpro.addon.php:800
+msgid "Sierra Leone"
+msgstr ""
+
+#: addons/paypalpro.addon.php:801
+msgid "Singapore"
+msgstr ""
+
+#: addons/paypalpro.addon.php:802
+msgid "Sint Maarten (Dutch part)"
+msgstr ""
+
+#: addons/paypalpro.addon.php:803
+msgid "Slovakia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:804
+msgid "Slovenia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:805
+msgid "Solomon Islands"
+msgstr ""
+
+#: addons/paypalpro.addon.php:806
+msgid "Somalia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:807
+msgid "South Africa"
+msgstr ""
+
+#: addons/paypalpro.addon.php:808
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: addons/paypalpro.addon.php:809
+msgid "South Sudan"
+msgstr ""
+
+#: addons/paypalpro.addon.php:810
+msgid "Spain"
+msgstr ""
+
+#: addons/paypalpro.addon.php:811
+msgid "Sri Lanka"
+msgstr ""
+
+#: addons/paypalpro.addon.php:812
+msgid "Sudan"
+msgstr ""
+
+#: addons/paypalpro.addon.php:813
+msgid "Suriname"
+msgstr ""
+
+#: addons/paypalpro.addon.php:814
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: addons/paypalpro.addon.php:815
+msgid "Swaziland"
+msgstr ""
+
+#: addons/paypalpro.addon.php:816
+msgid "Sweden"
+msgstr ""
+
+#: addons/paypalpro.addon.php:817
+msgid "Switzerland"
+msgstr ""
+
+#: addons/paypalpro.addon.php:818
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: addons/paypalpro.addon.php:819
+msgid "Taiwan, Province of China"
+msgstr ""
+
+#: addons/paypalpro.addon.php:820
+msgid "Tajikistan"
+msgstr ""
+
+#: addons/paypalpro.addon.php:821
+msgid "Tanzania, United Republic of"
+msgstr ""
+
+#: addons/paypalpro.addon.php:822
+msgid "Thailand"
+msgstr ""
+
+#: addons/paypalpro.addon.php:823
+msgid "Timor-Leste"
+msgstr ""
+
+#: addons/paypalpro.addon.php:824
+msgid "Togo"
+msgstr ""
+
+#: addons/paypalpro.addon.php:825
+msgid "Tokelau"
+msgstr ""
+
+#: addons/paypalpro.addon.php:826
+msgid "Tonga"
+msgstr ""
+
+#: addons/paypalpro.addon.php:827
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: addons/paypalpro.addon.php:828
+msgid "Tunisia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:829
+msgid "Turkey"
+msgstr ""
+
+#: addons/paypalpro.addon.php:830
+msgid "Turkmenistan"
+msgstr ""
+
+#: addons/paypalpro.addon.php:831
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: addons/paypalpro.addon.php:832
+msgid "Tuvalu"
+msgstr ""
+
+#: addons/paypalpro.addon.php:833
+msgid "Uganda"
+msgstr ""
+
+#: addons/paypalpro.addon.php:834
+msgid "Ukraine"
+msgstr ""
+
+#: addons/paypalpro.addon.php:835
+msgid "United Arab Emirates"
+msgstr ""
+
+#: addons/paypalpro.addon.php:836
+msgid "United Kingdom"
+msgstr ""
+
+#: addons/paypalpro.addon.php:837
+msgid "United States"
+msgstr ""
+
+#: addons/paypalpro.addon.php:838
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#: addons/paypalpro.addon.php:839
+msgid "Uruguay"
+msgstr ""
+
+#: addons/paypalpro.addon.php:840
+msgid "Uzbekistan"
+msgstr ""
+
+#: addons/paypalpro.addon.php:841
+msgid "Vanuatu"
+msgstr ""
+
+#: addons/paypalpro.addon.php:842
+msgid "Venezuela, Bolivarian Republic of"
+msgstr ""
+
+#: addons/paypalpro.addon.php:843
+msgid "Viet Nam"
+msgstr ""
+
+#: addons/paypalpro.addon.php:844
+msgid "Virgin Islands, British"
+msgstr ""
+
+#: addons/paypalpro.addon.php:845
+msgid "Virgin Islands, U.S."
+msgstr ""
+
+#: addons/paypalpro.addon.php:846
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: addons/paypalpro.addon.php:847
+msgid "Western Sahara"
+msgstr ""
+
+#: addons/paypalpro.addon.php:848
+msgid "Yemen"
+msgstr ""
+
+#: addons/paypalpro.addon.php:849
+msgid "Zambia"
+msgstr ""
+
+#: addons/paypalpro.addon.php:850
+msgid "Zimbabwe"
+msgstr ""
+
+#: addons/paypalpro.addon.php:856
+msgid "Credit Card Number:"
+msgstr ""
+
+#: addons/paypalpro.addon.php:863
+msgid "CVV Number:"
+msgstr ""
+
+#: addons/paypalpro.addon.php:870
+msgid "Card Type:"
+msgstr ""
+
+#: addons/paypalpro.addon.php:882
+msgid "Expiration:"
+msgstr ""
+
+#: addons/paypalpro.addon.php:885
+msgid "January"
+msgstr ""
+
+#: addons/paypalpro.addon.php:886
+msgid "February"
+msgstr ""
+
+#: addons/paypalpro.addon.php:887
+msgid "March"
+msgstr ""
+
+#: addons/paypalpro.addon.php:888
+msgid "April"
+msgstr ""
+
+#: addons/paypalpro.addon.php:889
+msgid "May"
+msgstr ""
+
+#: addons/paypalpro.addon.php:890
+msgid "June"
+msgstr ""
+
+#: addons/paypalpro.addon.php:891
+msgid "July"
+msgstr ""
+
+#: addons/paypalpro.addon.php:892
+msgid "August"
+msgstr ""
+
+#: addons/paypalpro.addon.php:893
+msgid "September"
+msgstr ""
+
+#: addons/paypalpro.addon.php:894
+msgid "October"
+msgstr ""
+
+#: addons/paypalpro.addon.php:895
+msgid "November"
+msgstr ""
+
+#: addons/paypalpro.addon.php:896
+msgid "December"
+msgstr ""
+
+#: addons/paytm.addon.php:77
+msgid "Enable PayTM? (if enabled PayPal Standard is disabled)"
+msgstr ""
+
+#: addons/paytm.addon.php:92
+msgid "Merchant ID"
+msgstr ""
+
+#: addons/paytm.addon.php:97
+msgid "Merchant Key"
+msgstr ""
+
+#: addons/paytm.addon.php:102
+msgid "Website Name"
+msgstr ""
+
+#: addons/paytm.addon.php:107
+msgid "Industry Type ID"
+msgstr ""
+
+#: addons/paytm.addon.php:112 addons/redsys-bizum.addon.php:97
+#: addons/redsys.addon.php:97 addons/sagepay.addon.php:128
+msgid "Mode"
+msgstr ""
+
+#: addons/paytm.addon.php:115 addons/redsys-bizum.addon.php:100
+#: addons/redsys.addon.php:100 addons/sagepay.addon.php:131
+msgid "SandBox - Testing sandbox area"
+msgstr ""
+
+#: addons/paytm.addon.php:140
+msgid "The add-on adds support for PayTM payments"
+msgstr ""
+
+#: addons/pdf.addon.php:98
+msgid "Activate the PDF add-on"
+msgstr ""
+
+#: addons/pdf.addon.php:103
+msgid "Enter the name of PDF file"
+msgstr ""
+
+#: addons/pdf.addon.php:110
+msgid "Generate files after payment confirmation"
+msgstr ""
+
+#: addons/pdf.addon.php:116 addons/printfriendly.addon.php:136
+msgid "Send the PDF file to"
+msgstr ""
+
+#: addons/pdf.addon.php:119 addons/printfriendly.addon.php:139
+msgid "Both emails"
+msgstr ""
+
+#: addons/pdf.addon.php:120
+msgid "None"
+msgstr ""
+
+#: addons/pdf.addon.php:125 addons/printfriendly.addon.php:144
+msgid "Enter the HTML code to generate the PDF file"
+msgstr ""
+
+#: addons/pdf.addon.php:127 addons/printfriendly.addon.php:146
+msgid ""
+"It is possible to use the same special tags that in notification emails and "
+"thank you pages"
+msgstr ""
+
+#: addons/pdf.addon.php:127 addons/printfriendly.addon.php:146
+msgid "READ MORE"
+msgstr ""
+
+#: addons/pdf.addon.php:132
+msgid "Layout"
+msgstr ""
+
+#: addons/pdf.addon.php:134
+msgid "Portrait"
+msgstr ""
+
+#: addons/pdf.addon.php:135
+msgid "Landscape"
+msgstr ""
+
+#: addons/pdf.addon.php:142
+msgid "Protect the file from being copied, modified, or printed"
+msgstr ""
+
+#: addons/pdf.addon.php:143
+msgid "Protect the file with password"
+msgstr ""
+
+#: addons/pdf.addon.php:167
+msgid ""
+"The add-on generates a PDF file with the information collected by the form, "
+"and attach it to the notification and confirmation emails"
+msgstr ""
+
+#: addons/printfriendly.addon.php:35
+msgid "Api Key"
+msgstr ""
+
+#: addons/printfriendly.addon.php:118
+msgid ""
+"The PrintFriendly API Key should be entered from the settings page of plugin"
+msgstr ""
+
+#: addons/printfriendly.addon.php:125
+msgid "Activate the PrintFriendly add-on"
+msgstr ""
+
+#: addons/printfriendly.addon.php:130
+msgid "Enter the header text of PDF file"
+msgstr ""
+
+#: addons/printfriendly.addon.php:151
+msgid "Enter the URL to the CSS file to define the design of PDF file"
+msgstr ""
+
+#: addons/printfriendly.addon.php:174
+msgid ""
+"The add-on generates a PDF file with the information collected by the form "
+"using the PrintFriendly API, and attach it to the notification and "
+"confirmation emails"
+msgstr ""
+
+#: addons/recaptcha.addon.php:39
+msgid "Site Key"
+msgstr ""
+
+#: addons/recaptcha.addon.php:45 addons/stripe.addon.php:147
+#: addons/stripe.addon.php:155 addons/stripe.checkout.addon.php:132
+#: addons/stripe.checkout.addon.php:148
+msgid "Secret Key"
+msgstr ""
+
+#: addons/recaptcha.addon.php:64
+msgid "Is it a key for invisible reCAPTCHA?"
+msgstr ""
+
+#: addons/recaptcha.addon.php:72
+msgid "Check reCAPTCHA in both sides, client and server"
+msgstr ""
+
+#: addons/recaptcha.addon.php:73
+msgid ""
+"If there is any issue with the sessions in your server, please, untick the "
+"checkbox"
+msgstr ""
+
+#: addons/recaptcha.addon.php:178
+msgid "reCAPTCHA language"
+msgstr ""
+
+#: addons/recaptcha.addon.php:216
+msgid "The add-on allows to protect the forms with reCAPTCHA service of Google"
+msgstr ""
+
+#: addons/redsys-bizum.addon.php:73 addons/redsys.addon.php:73
+msgid "Enable TPV?"
+msgstr ""
+
+#: addons/redsys-bizum.addon.php:81
+msgid ""
+"Note: If \"Pay Later\" or \"PayPal\" are selected, a radiobutton will appear "
+"in the form to select if the payment will be made with Bizum or not."
+msgstr ""
+
+#: addons/redsys-bizum.addon.php:83
+msgid "Label for the \"<strong>Pay with Bizum</strong>\" option"
+msgstr ""
+
+#: addons/redsys-bizum.addon.php:89 addons/redsys.addon.php:89
+msgid "C&Oacute;DIGO COMERCIO"
+msgstr ""
+
+#: addons/redsys-bizum.addon.php:93 addons/redsys.addon.php:93
+msgid "CLAVE SECRETA"
+msgstr ""
+
+#: addons/redsys-bizum.addon.php:105 addons/redsys.addon.php:105
+msgid "P&aacute;gina (URL) a mostrar en caso de pago fallado"
+msgstr ""
+
+#: addons/redsys-bizum.addon.php:132
+msgid "The add-on adds support for Bizum payments"
+msgstr ""
+
+#: addons/redsys.addon.php:81
+msgid ""
+"Note: If \"Pay Later\" or \"PayPal\" are selected, a radiobutton will appear "
+"in the form to select if the payment will be made with RedSys or not."
+msgstr ""
+
+#: addons/redsys.addon.php:83
+msgid "Label for the \"<strong>Pay with RedSys</strong>\" option"
+msgstr ""
+
+#: addons/redsys.addon.php:132
+msgid "The add-on adds support for RedSys TPV payments"
+msgstr ""
+
+#: addons/registrationform.addon.php:123
+msgid "Register a new user through the form"
+msgstr ""
+
+#: addons/registrationform.addon.php:127
+msgid "Unregistered users only"
+msgstr ""
+
+#: addons/registrationform.addon.php:131
+msgid "Show the form only for unregistered users"
+msgstr ""
+
+#: addons/registrationform.addon.php:135
+msgid "Notification"
+msgstr ""
+
+#: addons/registrationform.addon.php:139
+msgid "Do not send any notification"
+msgstr ""
+
+#: addons/registrationform.addon.php:142
+msgid "Send notifications only to the users"
+msgstr ""
+
+#: addons/registrationform.addon.php:145
+msgid "Send notifications only to the website administrator"
+msgstr ""
+
+#: addons/registrationform.addon.php:148
+msgid "Send notifications to both"
+msgstr ""
+
+#: addons/registrationform.addon.php:152
+msgid "User email field(required)"
+msgstr ""
+
+#: addons/registrationform.addon.php:158
+msgid "User login field(required)"
+msgstr ""
+
+#: addons/registrationform.addon.php:164
+msgid "User password field"
+msgstr ""
+
+#: addons/registrationform.addon.php:170
+msgid "User nicename field"
+msgstr ""
+
+#: addons/registrationform.addon.php:176
+msgid "Display name field"
+msgstr ""
+
+#: addons/registrationform.addon.php:182
+msgid "User url field"
+msgstr ""
+
+#: addons/registrationform.addon.php:188
+msgid "User role"
+msgstr ""
+
+#: addons/registrationform.addon.php:217
+msgid "Auto login"
+msgstr ""
+
+#: addons/registrationform.addon.php:221
+msgid "Auto login the user after registration"
+msgstr ""
+
+#: addons/registrationform.addon.php:225
+msgid "Enable user after payment"
+msgstr ""
+
+#: addons/registrationform.addon.php:229
+msgid ""
+"It creates the users disabled by default until completing the payment. Tick "
+"the checkbox in forms integrated with payment gateways. And if you want to "
+"create commercial users only."
+msgstr ""
+
+#: addons/registrationform.addon.php:233
+msgid "User metadata"
+msgstr ""
+
+#: addons/registrationform.addon.php:255
+msgid "Add metadata"
+msgstr ""
+
+#: addons/registrationform.addon.php:281 addons/users.addon.php:178
+msgid "Error messages"
+msgstr ""
+
+#: addons/registrationform.addon.php:282
+msgid "Login required"
+msgstr ""
+
+#: addons/registrationform.addon.php:285
+msgid "Login exists"
+msgstr ""
+
+#: addons/registrationform.addon.php:288
+msgid "Login too long"
+msgstr ""
+
+#: addons/registrationform.addon.php:291
+msgid "Email required"
+msgstr ""
+
+#: addons/registrationform.addon.php:294
+msgid "Invalid email"
+msgstr ""
+
+#: addons/registrationform.addon.php:297
+msgid "Email exists"
+msgstr ""
+
+#: addons/registrationform.addon.php:300
+msgid "Nicename too long"
+msgstr ""
+
+#: addons/registrationform.addon.php:323
+msgid "The add-on allows to create an User Registration Form"
+msgstr ""
+
+#: addons/sagepay.addon.php:103
+msgid "Enable SagePay? (if enabled PayPal Standard is disabled)"
+msgstr ""
+
+#: addons/sagepay.addon.php:118
+msgid "Vendor ID"
+msgstr ""
+
+#: addons/sagepay.addon.php:123
+msgid " SagePay Encrypt Password"
+msgstr ""
+
+#: addons/sagepay.addon.php:188
+msgid "The add-on adds support for SagePay payments"
+msgstr ""
+
+#: addons/sagepayments.addon.php:88
+msgid "Enable SagePayments? (if enabled PayPal Standard is disabled)"
+msgstr ""
+
+#: addons/sagepayments.addon.php:103
+msgid "Merchant ID (M_id)"
+msgstr ""
+
+#: addons/sagepayments.addon.php:113
+msgid "Shipping/Freight:"
+msgstr ""
+
+#: addons/sagepayments.addon.php:118
+msgid "Tax:"
+msgstr ""
+
+#: addons/sagepayments.addon.php:142
+msgid "ZIP:"
+msgstr ""
+
+#: addons/sagepayments.addon.php:146
+msgid "Email:"
+msgstr ""
+
+#: addons/sagepayments.addon.php:150
+msgid "Telephone:"
+msgstr ""
+
+#: addons/sagepayments.addon.php:175
+msgid "The add-on adds support for SagePayments payments"
+msgstr ""
+
+#: addons/salesforce.addon.php:70
+msgid "Organization ID"
+msgstr ""
+
+#: addons/salesforce.addon.php:74
+msgid "Enabling debug"
+msgstr ""
+
+#: addons/salesforce.addon.php:78
+msgid "Debug email"
+msgstr ""
+
+#: addons/salesforce.addon.php:81
+msgid "Lead Attributes"
+msgstr ""
+
+#: addons/salesforce.addon.php:190
+msgid ""
+"The add-on allows create SalesForce leads with the submitted information"
+msgstr ""
+
+#: addons/serverside.addon.php:32
+msgid "Equations updated"
+msgstr ""
+
+#: addons/serverside.addon.php:56
+msgid "Delay the evaluation of equations until the <b>init</b> action."
+msgstr ""
+
+#: addons/serverside.addon.php:57
+msgid "Define the server side equations"
+msgstr ""
+
+#: addons/serverside.addon.php:62
+msgid "Or the file can be edited directly"
+msgstr ""
+
+#: addons/serverside.addon.php:63
+msgid "Save equations"
+msgstr ""
+
+#: addons/serverside.addon.php:94
+msgid ""
+"Calculate the cost with a server-side equation after submitting the form."
+msgstr ""
+
+#: addons/serverside.addon.php:99
+msgid "Call the Server Side Equation"
+msgstr ""
+
+#: addons/serverside.addon.php:101
+msgid ""
+"The server-side equation call requires the format: "
+"<b>equation_name(fieldname1, fieldname2, fieldname3)</b><br> The server-side "
+"equation should be defined from the settings page of the plugin."
+msgstr ""
+
+#: addons/serverside.addon.php:123
+msgid ""
+"The add-on allows to define server side equations called from the public "
+"forms with the SERVER_SIDE operation"
+msgstr ""
+
+#: addons/signature.addon.php:113
+msgid "Signature Settings"
+msgstr ""
+
+#: addons/signature.addon.php:116
+msgid "Color"
+msgstr ""
+
+#: addons/signature.addon.php:120
+msgid "Line thickness"
+msgstr ""
+
+#: addons/signature.addon.php:124
+msgid "Show guideline"
+msgstr ""
+
+#: addons/signature.addon.php:128
+msgid "Guideline color"
+msgstr ""
+
+#: addons/signature.addon.php:148 addons/signature.addon.php:247
+msgid "Enter the field name to be reaplaced by the signature"
+msgstr ""
+
+#: addons/signature.addon.php:180
+msgid "The add-on allows to replace form fields with \"Signature\" fields"
+msgstr ""
+
+#: addons/skrill.addon.php:77
+msgid "Enable Skrill Payments?"
+msgstr ""
+
+#: addons/skrill.addon.php:92
+msgid "Skrill Email"
+msgstr ""
+
+#: addons/skrill.addon.php:109
+msgid "Currency:"
+msgstr ""
+
+#: addons/skrill.addon.php:136
+msgid "The add-on adds support for Skrill payments"
+msgstr ""
+
+#: addons/stripe.addon.php:113
+msgid "Enable Stripe?"
+msgstr ""
+
+#: addons/stripe.addon.php:128
+msgid "Integration Type"
+msgstr ""
+
+#: addons/stripe.addon.php:130
+msgid "Classic - Valid for NON European Sellers (European Union Sellers)"
+msgstr ""
+
+#: addons/stripe.addon.php:131
+msgid "SCA Ready  - Valid for European Sellers (European Union Sellers)"
+msgstr ""
+
+#: addons/stripe.addon.php:137 addons/stripe.checkout.addon.php:114
+#: addons/targetpay.ideal.addon.php:95
+msgid "Test Mode"
+msgstr ""
+
+#: addons/stripe.addon.php:143 addons/stripe.addon.php:151
+#: addons/stripe.checkout.addon.php:124 addons/stripe.checkout.addon.php:140
+msgid "click to get the your stripe key"
+msgstr ""
+
+#: addons/stripe.addon.php:143 addons/stripe.addon.php:151
+#: addons/stripe.checkout.addon.php:124 addons/stripe.checkout.addon.php:140
+msgid "Publishable Key"
+msgstr ""
+
+#: addons/stripe.addon.php:147 addons/stripe.addon.php:155
+#: addons/stripe.checkout.addon.php:132 addons/stripe.checkout.addon.php:148
+msgid "click to get the your stripe secret key"
+msgstr ""
+
+#: addons/stripe.addon.php:161 addons/stripe.checkout.addon.php:156
+msgid "Language?"
+msgstr ""
+
+#: addons/stripe.addon.php:163 addons/stripe.checkout.addon.php:161
+msgid "auto (recommended)"
+msgstr ""
+
+#: addons/stripe.addon.php:181 addons/stripe.checkout.addon.php:205
+msgid "Ask for billing address?"
+msgstr ""
+
+#: addons/stripe.addon.php:190 addons/stripe.checkout.addon.php:255
+msgid "Payment frequency?"
+msgstr ""
+
+#: addons/stripe.addon.php:192 addons/stripe.checkout.addon.php:260
+msgid "One time payment"
+msgstr ""
+
+#: addons/stripe.addon.php:193 addons/stripe.checkout.addon.php:263
+msgid "Daily (subcription)"
+msgstr ""
+
+#: addons/stripe.addon.php:194 addons/stripe.checkout.addon.php:266
+msgid "Weekly (subscription)"
+msgstr ""
+
+#: addons/stripe.addon.php:195 addons/stripe.checkout.addon.php:269
+msgid "Monthly (subscription)"
+msgstr ""
+
+#: addons/stripe.addon.php:196 addons/stripe.checkout.addon.php:272
+msgid "Yearly (subscription)"
+msgstr ""
+
+#: addons/stripe.addon.php:197 addons/stripe.checkout.addon.php:275
+#: inc/cpcff_admin_int.inc.php:560
+msgid "From field"
+msgstr ""
+
+#: addons/stripe.addon.php:207 addons/stripe.checkout.addon.php:287
+msgid "Number of times"
+msgstr ""
+
+#: addons/stripe.addon.php:209 addons/stripe.checkout.addon.php:290
+#: inc/cpcff_admin_int.inc.php:575
+msgid "Unlimited"
+msgstr ""
+
+#: addons/stripe.addon.php:210 addons/stripe.checkout.addon.php:293
+#: inc/cpcff_admin_int.inc.php:576
+msgid "Get value from a form field"
+msgstr ""
+
+#: addons/stripe.addon.php:213 addons/stripe.checkout.addon.php:297
+#: inc/cpcff_admin_int.inc.php:578
+msgid "times"
+msgstr ""
+
+#: addons/stripe.addon.php:225 addons/stripe.checkout.addon.php:311
+msgid "Trial period length in days for subscription payments"
+msgstr ""
+
+#: addons/stripe.addon.php:229 addons/stripe.checkout.addon.php:320
+msgid "Plan name for subscription payments"
+msgstr ""
+
+#: addons/stripe.addon.php:233
+msgid "Subtitle for payment panel"
+msgstr ""
+
+#: addons/stripe.addon.php:237
+msgid "URL of logo image"
+msgstr ""
+
+#: addons/stripe.addon.php:242 addons/stripe.checkout.addon.php:340
+msgid "Metadata fields"
+msgstr ""
+
+#: addons/stripe.addon.php:321
+msgid "The add-on adds support for Stripe payments"
+msgstr ""
+
+#: addons/stripe.checkout.addon.php:89
+msgid "Enable Stripe checkout?"
+msgstr ""
+
+#: addons/stripe.checkout.addon.php:221
+msgid "Ask tax number?"
+msgstr ""
+
+#: addons/stripe.checkout.addon.php:237
+msgid "Automatic tax calculation?"
+msgstr ""
+
+#: addons/stripe.checkout.addon.php:331
+msgid "URL of product/store image"
+msgstr ""
+
+#: addons/stripe.checkout.addon.php:414
+msgid "The add-on adds support for Stripe Checkout payments"
+msgstr ""
+
+#: addons/targetpay.ideal.addon.php:70
+msgid "Enable iDeal-TargetPay?"
+msgstr ""
+
+#: addons/targetpay.ideal.addon.php:85
+msgid "RTLO Subaccount ID"
+msgstr ""
+
+#: addons/targetpay.ideal.addon.php:93
+msgid "Payments Mode"
+msgstr ""
+
+#: addons/targetpay.ideal.addon.php:96
+msgid "Production - Real Payments"
+msgstr ""
+
+#: addons/targetpay.ideal.addon.php:122
+msgid "The add-on adds support for iDeal via TargetPay payments"
+msgstr ""
+
+#: addons/twilio.addon.php:67
+msgid "Twilio enabled"
+msgstr ""
+
+#: addons/twilio.addon.php:71
+msgid "Account SID"
+msgstr ""
+
+#: addons/twilio.addon.php:75
+msgid "Authentication Token"
+msgstr ""
+
+#: addons/twilio.addon.php:79
+msgid "From Phone Number"
+msgstr ""
+
+#: addons/twilio.addon.php:84
+msgid "To Phone Number"
+msgstr ""
+
+#: addons/twilio.addon.php:87
+msgid ""
+"For sending multiple messages, separate the phone numbers by comma symbols."
+msgstr ""
+
+#: addons/twilio.addon.php:91 addons/twilio.addon.php:107
+#: inc/cpcff_admin_int.inc.php:707 inc/cpcff_admin_int.inc.php:760
+#: inc/cpcff_admin_int_message_list.inc.php:389
+msgid "Message"
+msgstr ""
+
+#: addons/twilio.addon.php:94 addons/twilio.addon.php:110
+msgid ""
+"It is possible to use the same <a href=\"https://cff.dwbooster.com/"
+"documentation#special-tags\" target=\"_blank\">special tags</a> than in "
+"notifications emails."
+msgstr ""
+
+#: addons/twilio.addon.php:98
+msgid "Copy to the users"
+msgstr ""
+
+#: addons/twilio.addon.php:100
+msgid "To Phone fields"
+msgstr ""
+
+#: addons/twilio.addon.php:103
+msgid ""
+"For sending multiple messages, separate the phone fields by comma symbols."
+msgstr ""
+
+#: addons/twilio.addon.php:135
+msgid ""
+"The add-on allows to send notification messages (SMS) after submit the forms"
+msgstr ""
+
+#: addons/uniquefieldsvalues.addon.php:75
+msgid "Enable the Unique Fields Values in the form"
+msgstr ""
+
+#: addons/uniquefieldsvalues.addon.php:76 addons/verificationcode.addon.php:93
+msgid "Enabling"
+msgstr ""
+
+#: addons/uniquefieldsvalues.addon.php:79
+msgid "Condition to validate"
+msgstr ""
+
+#: addons/uniquefieldsvalues.addon.php:80
+msgid "Condition"
+msgstr ""
+
+#: addons/uniquefieldsvalues.addon.php:85
+#: addons/uniquefieldsvalues.addon.php:86
+msgid "Error message"
+msgstr ""
+
+#: addons/uniquefieldsvalues.addon.php:90
+msgid "From (optional)"
+msgstr ""
+
+#: addons/uniquefieldsvalues.addon.php:91
+#: inc/cpcff_admin_int_message_list.inc.php:337
+msgid "From"
+msgstr ""
+
+#: addons/uniquefieldsvalues.addon.php:94
+msgid "To (optional)"
+msgstr ""
+
+#: addons/uniquefieldsvalues.addon.php:95
+#: inc/cpcff_admin_int_message_list.inc.php:340
+msgid "To"
+msgstr ""
+
+#: addons/uniquefieldsvalues.addon.php:114
+msgid ""
+"The add-on verifies that the values entered by users have not been used in "
+"previous submissions. It allows to enter simple and complex verification "
+"rules (one or multiple fields separated by comma symbols)"
+msgstr ""
+
+#: addons/uploads.addon.php:37
+msgid "Add the uploaded files to the media library"
+msgstr ""
+
+#: addons/uploads.addon.php:41
+msgid "Add Custom Media Types"
+msgstr ""
+
+#: addons/uploads.addon.php:48
+msgid ""
+"Adds the files extensions separated by comma: <strong>svg,xml,zip</strong>"
+msgstr ""
+
+#: addons/uploads.addon.php:763
+msgid ""
+"The add-on allows to add the uploaded files to the Media Library, and the "
+"support for new mime types"
+msgstr ""
+
+#: addons/uploads.addon.php:811
+msgid ""
+"Enable the integration between the \"CFF - Uploads\" add-on and the current "
+"form"
+msgstr ""
+
+#: addons/users.addon.php:75
+msgid "Display the form for"
+msgstr ""
+
+#: addons/users.addon.php:77
+msgid "Registered users only"
+msgstr ""
+
+#: addons/users.addon.php:78
+msgid "Anonymous users"
+msgstr ""
+
+#: addons/users.addon.php:82
+msgid "For registered users only"
+msgstr ""
+
+#: addons/users.addon.php:85
+msgid "The form may be submitted"
+msgstr ""
+
+#: addons/users.addon.php:87
+msgid "only one time per user"
+msgstr ""
+
+#: addons/users.addon.php:88
+msgid "This restriction does not affect to the administrators"
+msgstr ""
+
+#: addons/users.addon.php:92
+msgid "The form will be available only for users with the roles"
+msgstr ""
+
+#: addons/users.addon.php:95
+msgid "Roles"
+msgstr ""
+
+#: addons/users.addon.php:126
+msgid "Or for the specific users"
+msgstr ""
+
+#: addons/users.addon.php:127
+msgid "The forms are always available for the website's administrators"
+msgstr ""
+
+#: addons/users.addon.php:131
+msgid "Users"
+msgstr ""
+
+#: addons/users.addon.php:158
+msgid "Actions allowed over the forms submissions by the users"
+msgstr ""
+
+#: addons/users.addon.php:159
+msgid ""
+"Uses the corresponding shortcodes to insert the forms submissions in the "
+"users profile"
+msgstr ""
+
+#: addons/users.addon.php:163
+msgid "Actions"
+msgstr ""
+
+#: addons/users.addon.php:165
+msgid ""
+"Edit the submitted data (Really is created a new entry, and the previous one "
+"is deactivated, but it is yet accessible for the administrators from the "
+"messages section)"
+msgstr ""
+
+#: addons/users.addon.php:166
+msgid ""
+"Delete the submitted data (The submissions are disabled. The submissions are "
+"deleted only from the messages section)"
+msgstr ""
+
+#: addons/users.addon.php:170
+msgid "Send an email copy to the user after editing by the administrator"
+msgstr ""
+
+#: addons/users.addon.php:174
+msgid ""
+"After the administrator edits the users submissions through the "
+"[CP_CALCULATED_FIELDS_USER_SUBMISSIONS_LIST] shortcode, it is sent a "
+"notification email to the users."
+msgstr ""
+
+#: addons/users.addon.php:179
+msgid ""
+"The messages are displayed instead of the form: if the user has no "
+"sufficient privileges, or if the form may be submitted only one time per "
+"registered user, and it has been submitted"
+msgstr ""
+
+#: addons/users.addon.php:183 inc/cpcff_admin_int_list.inc.php:454
+msgid "Messages"
+msgstr ""
+
+#: addons/users.addon.php:185
+msgid "The user has no sufficient privileges"
+msgstr ""
+
+#: addons/users.addon.php:187
+msgid "Display a login form for unregistered users"
+msgstr ""
+
+#: addons/users.addon.php:189
+msgid "The form has been submitted previously"
+msgstr ""
+
+#: addons/users.addon.php:231
+msgid ""
+"The add-on allows restrict the form to: registered users, users with "
+"specific roles, or specific users. Furthermore, allows to associate the "
+"submitted information with the submitter, if it is a registered user"
+msgstr ""
+
+#: addons/users.addon.php:380
+msgid "Id"
+msgstr ""
+
+#: addons/users.addon.php:381 addons/users.addon.php:1069
+#: inc/cpcff_admin_int.inc.php:49 inc/cpcff_admin_int_message_list.inc.php:386
+#: inc/cpcff_widgets.inc.php:167 pagebuilders/divi/cff.pb.php:14
+msgid "Form"
+msgstr ""
+
+#: addons/users.addon.php:382 inc/cpcff_admin_int_message_list.inc.php:387
+#: inc/cpcff_widgets.inc.php:168
+msgid "Date"
+msgstr ""
+
+#: addons/users.addon.php:384 addons/users.addon.php:1079
+msgid "User"
+msgstr ""
+
+#: addons/users.addon.php:386 inc/cpcff_admin_int_list.inc.php:438
+#: inc/cpcff_admin_int_message_list.inc.php:397 inc/cpcff_discounts.inc.php:232
+msgid "Options"
+msgstr ""
+
+#: addons/users.addon.php:465 inc/cpcff_admin_int_list.inc.php:452
+#: inc/cpcff_admin_int_list.inc.php:514
+msgid "Update"
+msgstr ""
+
+#: addons/users.addon.php:550
+msgid "Do you want to delete the item?"
+msgstr ""
+
+#: addons/users.addon.php:664
+msgid "Update Form"
+msgstr ""
+
+#: addons/users.addon.php:1066
+msgid "Search by"
+msgstr ""
+
+#: addons/users.addon.php:1084 inc/cpcff_admin_int_message_list.inc.php:354
+msgid "Filter"
+msgstr ""
+
+#: addons/users.addon.php:1128
+msgid "The list of submissions is empty"
+msgstr ""
+
+#: addons/users.addon.php:1198
+msgid "Registered User"
+msgstr ""
+
+#: addons/users.addon.php:1198
+msgid "Status"
+msgstr ""
+
+#: addons/users.addon.php:1215
+msgid "Active"
+msgstr ""
+
+#: addons/users.addon.php:1220
+msgid "Disabled by user action"
+msgstr ""
+
+#: addons/users.addon.php:1226
+msgid "Anonymous user"
+msgstr ""
+
+#: addons/users.addon.php:1252
+msgid "New and Disable"
+msgstr ""
+
+#: addons/users.addon.php:1263
+msgid "Username"
+msgstr ""
+
+#: addons/verificationcode.addon.php:89
+msgid ""
+"When the email address entered through the form matches the email address of "
+"the registered user, there is no reason to send the verification code."
+msgstr ""
+
+#: addons/verificationcode.addon.php:92
+msgid "Enable the verification code"
+msgstr ""
+
+#: addons/verificationcode.addon.php:101 addons/verificationcode.addon.php:102
+msgid "Make field required"
+msgstr ""
+
+#: addons/verificationcode.addon.php:105
+msgid "Verification dialog"
+msgstr ""
+
+#: addons/verificationcode.addon.php:107 addons/verificationcode.addon.php:108
+msgid "Label text"
+msgstr ""
+
+#: addons/verificationcode.addon.php:109
+msgid ""
+"You can include the email in the dialog label by entering its field's tag. "
+"Ex. &lt;%fieldname1%&gt;"
+msgstr ""
+
+#: addons/verificationcode.addon.php:113 addons/verificationcode.addon.php:114
+msgid "Instructions text"
+msgstr ""
+
+#: addons/verificationcode.addon.php:117 addons/verificationcode.addon.php:118
+msgid "Verify button text"
+msgstr ""
+
+#: addons/verificationcode.addon.php:121 addons/verificationcode.addon.php:122
+msgid "Resend button text"
+msgstr ""
+
+#: addons/verificationcode.addon.php:125
+msgid "Verification email"
+msgstr ""
+
+#: addons/verificationcode.addon.php:127 addons/verificationcode.addon.php:128
+#: inc/cpcff_admin_int.inc.php:674 inc/cpcff_admin_int.inc.php:746
+msgid "Email subject"
+msgstr ""
+
+#: addons/verificationcode.addon.php:131 addons/verificationcode.addon.php:132
+msgid "Email message"
+msgstr ""
+
+#: addons/verificationcode.addon.php:133
+msgid "The <b><%code%></b> tag would be replaced by the verification code."
+msgstr ""
+
+#: addons/verificationcode.addon.php:137
+msgid "Texts"
+msgstr ""
+
+#: addons/verificationcode.addon.php:139 addons/verificationcode.addon.php:140
+msgid "Sent code text"
+msgstr ""
+
+#: addons/verificationcode.addon.php:143 addons/verificationcode.addon.php:144
+msgid "Required email text"
+msgstr ""
+
+#: addons/verificationcode.addon.php:147 addons/verificationcode.addon.php:148
+msgid "Required code text"
+msgstr ""
+
+#: addons/verificationcode.addon.php:151 addons/verificationcode.addon.php:152
+msgid "Invalid code text"
+msgstr ""
+
+#: addons/verificationcode.addon.php:155 addons/verificationcode.addon.php:156
+msgid "Expired code text"
+msgstr ""
+
+#: addons/verificationcode.addon.php:175
+msgid ""
+"The add-on sends a verification code to the user's email and blocks the "
+"submission of the form until a valid code is entered"
+msgstr ""
+
+#: addons/webhook.addon.php:123 addons/webhook.addon.php:188
+msgid "WebHook URL"
+msgstr ""
+
+#: addons/webhook.addon.php:127 addons/webhook.addon.php:190
+msgid "Calling the WebHook after processing the payment"
+msgstr ""
+
+#: addons/webhook.addon.php:130 addons/webhook.addon.php:191
+msgid "Send all form's fields plus the next ones"
+msgstr ""
+
+#: addons/webhook.addon.php:156 addons/webhook.addon.php:193
+msgid "Remove URL"
+msgstr ""
+
+#: addons/webhook.addon.php:168
+msgid "Add new URL"
+msgstr ""
+
+#: addons/webhook.addon.php:237
+msgid ""
+"The add-on allows put the submitted information to a webhook URL, and "
+"integrate the forms with the Zapier service"
+msgstr ""
+
+#: addons/webmerge.addon.php:101 addons/webmerge.addon.php:169
+msgid "Document URL"
+msgstr ""
+
+#: addons/webmerge.addon.php:116 addons/webmerge.addon.php:169
+msgid "Calling to WebMerge after processing the payment"
+msgstr ""
+
+#: addons/webmerge.addon.php:129 addons/webmerge.addon.php:196
+msgid "WebMerge Field"
+msgstr ""
+
+#: addons/webmerge.addon.php:131 addons/webmerge.addon.php:196
+msgid "Form Field"
+msgstr ""
+
+#: addons/webmerge.addon.php:142 addons/webmerge.addon.php:169
+msgid "Add Field"
+msgstr ""
+
+#: addons/webmerge.addon.php:142 addons/webmerge.addon.php:169
+msgid "Remove Document"
+msgstr ""
+
+#: addons/webmerge.addon.php:151
+msgid "Add a New Document"
+msgstr ""
+
+#: addons/webmerge.addon.php:225
+msgid ""
+"The add-on submits the collected information to the WebMerge service, to "
+"generate a document (PDF, or Word Document)"
+msgstr ""
+
+#: addons/woocommerce.addon.php:35
+msgid "The add-on allows integrate the forms with WooCommerce products"
+msgstr ""
+
+#: addons/woocommerce.addon.php:370 addons/woocommerce.addon.php:518
+msgid "Data"
+msgstr ""
+
+#: addons/woocommerce.addon.php:450
+msgid "Extra Details"
+msgstr ""
+
+#: addons/woocommerce.addon.php:539
+msgid "View Product"
+msgstr ""
+
+#: addons/woocommerce.addon.php:790
+msgid "Successful integration !!!"
+msgstr ""
+
+#: addons/woocommerce.addon.php:825
+msgid ""
+"<b>Integrate a form with all the products in the store at once.</b><br>It is "
+"possible to integrate the forms into the products directly through the "
+"products' settings. The integration from the product settings takes "
+"precedence."
+msgstr ""
+
+#: addons/woocommerce.addon.php:851
+msgid "For additional WooCommerce resources"
+msgstr ""
+
+#: addons/woocommerce.addon.php:851
+msgid "Click Here"
+msgstr ""
+
+#: addons/woocommerce.addon.php:930
+msgid "Field for cart title"
+msgstr ""
+
+#: addons/woocommerce.addon.php:934
+msgid "Enter the field's name for the product's title in the cart"
+msgstr ""
+
+#: addons/woocommerce.addon.php:939
+msgid "Field for weight"
+msgstr ""
+
+#: addons/woocommerce.addon.php:943
+msgid "If the product's weight is determined through the form"
+msgstr ""
+
+#: addons/woocommerce.addon.php:948
+msgid "Field for length"
+msgstr ""
+
+#: addons/woocommerce.addon.php:952
+msgid "If the product's length is determined through the form"
+msgstr ""
+
+#: addons/woocommerce.addon.php:957
+msgid "Field for width"
+msgstr ""
+
+#: addons/woocommerce.addon.php:961
+msgid "If the product's width is determined through the form"
+msgstr ""
+
+#: addons/woocommerce.addon.php:966
+msgid "Field for height"
+msgstr ""
+
+#: addons/woocommerce.addon.php:970
+msgid "If the product's height is determined through the form"
+msgstr ""
+
+#: addons/woocommerce.addon.php:975
+msgid "Field for quantity"
+msgstr ""
+
+#: addons/woocommerce.addon.php:979
+msgid "Field for quantity in the form"
+msgstr ""
+
+#: addons/woocommerce.addon.php:984
+msgid "Field for visual price"
+msgstr ""
+
+#: addons/woocommerce.addon.php:988
+msgid ""
+"For displaying a price in the product's page, different to price calculated "
+"by the Request Cost field"
+msgstr ""
+
+#: addons/woocommerce.addon.php:994
+msgid ""
+"Replace the \"Add to Cart\" button by \"View Product\" in the shop and "
+"archive pages"
+msgstr ""
+
+#: addons/woocommerce.addon.php:1000
+msgid ""
+"If \"Active summary\" is unticked, all data collected by the form is added "
+"to the cart and order."
+msgstr ""
+
+#: addons/woocommerce.addon.php:1001
+msgid ""
+"If \"Active summary\" is ticked and the \"Summary\" attribute is left empty, "
+"the add-on does not include the information collected by the form into the "
+"cart and order."
+msgstr ""
+
+#: addons/woocommerce.addon.php:1030
+msgid ""
+"Please, assign a regular price to the product, even if the final one is "
+"calculated by the form, or WooCommerce will not include an add to cart "
+"button on the product page."
+msgstr ""
+
+#: addons/woocommerce.addon.php:1059
+msgid "Exclude global form from this product."
+msgstr ""
+
+#: cp_calculatedfieldsf_platinum.php:107
+msgid "Form Preview"
+msgstr ""
+
+#: cp_calculatedfieldsf_platinum.php:179
+msgid "Failed security check"
+msgstr ""
+
+#: cp_calculatedfieldsf_platinum.php:230
+msgid "At least a required field is empty"
+msgstr ""
+
+#: cp_calculatedfieldsf_platinum.php:305
+msgid "The form is empty"
+msgstr ""
+
+#: cp_calculatedfieldsf_platinum.php:408
+msgid "Error saving data! Please try again."
+msgstr ""
+
+#: cp_calculatedfieldsf_platinum.php:409
+msgid "<br /><br />Error debug information: "
+msgstr ""
+
+#: cp_calculatedfieldsf_platinum.php:814
+msgid ""
+"<div class=\"error-text\">The data cannot be stored in database because has "
+"occurred an error with the database structure. Please, go to the plugins "
+"section and Deactivate/Activate the plugin to be sure the structure of "
+"database has been checked, and corrected if needed. If the issue persist, "
+"please <a href=\"https://cff.dwbooster.com/contact-us\">contact us</a></div>"
+msgstr ""
+
+#: cp_calculatedfieldsf_platinum.php:830
+msgid ""
+"<div class=\"error-text\">The data cannot be stored in database because has "
+"occurred an error with the form structure. Please, try to save the data "
+"again. If have been copied and pasted data from external text editors, the "
+"data can contain invalid characters. If the issue persist, please <a "
+"href=\"https://cff.dwbooster.com/contact-us\">contact us</a></div>"
+msgstr ""
+
+#: inc/cpcff_addons.inc.php:137
+msgid "<h2>Add-Ons Settings:</h2><hr />"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:36
+msgid "Settings saved"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:56
+msgid "Direct form URL"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:59 inc/cpcff_admin_int_message_list.inc.php:321
+msgid "Back to items list..."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:60
+msgid "Go to submissions"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:71 inc/cpcff_admin_int.inc.php:248
+msgid "Form Settings"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:75
+msgid "Form Category"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:85
+msgid ""
+"* Different form styles available on the tab Form Settings &gt;&gt; Form "
+"Template"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:88
+msgid "Form Builder"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:92
+msgid "Revisions"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:97
+msgid "Select a revision"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:110 inc/cpcff_admin_int.inc.php:270
+#: inc/cpcff_admin_int.inc.php:805
+msgid "Preview"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:110
+msgid "Saves the form's structure only, and opens a preview windows"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:111
+msgid "Fields List"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:137
+msgid ""
+"The action will load the revision selected, the data are not stored will be "
+"lose. Do you want continue?"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:246
+msgid "Add a Field"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:247
+msgid "Field Settings"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:267 inc/cpcff_admin_int.inc.php:858
+#: inc/cpcff_admin_int_message_list.inc.php:123
+msgid "Save Changes"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:276
+msgid "Generate revisions in the form preview as well"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:281
+msgid "Texts definition"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:282
+msgid "Error texts"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:283
+msgid "Submit button and thank you page"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:284
+msgid "General payment settings"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:285
+msgid "PayPal integration"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:286
+msgid "Notification email"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:287
+msgid "Email copy to user"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:288
+msgid "Captcha settings"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:289
+msgid "Add ons"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:292
+msgid "Define Texts"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:296
+msgid "Submit button label (text)"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:300
+msgid "Previous button label (text)"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:304
+msgid "Next button label (text)"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:308
+msgid ""
+" - The  <em style=\"font-size:11px;\">class=\"pbSubmit\"</em> can be used to "
+"modify the button styles."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:309
+msgid ""
+"- The styles can be applied into the \"Customize Form Appearance\" attribute "
+"in the \"Form Settings\" tab"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:310
+msgid ""
+"- For general CSS styles modifications to the form and samples <a "
+"href=\"https://cff.dwbooster.com/faq#q82\" target=\"_blank\">check this FAQ</"
+"a>."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:333
+msgid "Validation Settings"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:337
+msgid "\"is required\" text"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:341
+msgid "\"is email\" text"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:345
+msgid "\"is valid captcha\" text"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:350
+msgid "\"is valid date (mm/dd/yyyy)\" text"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:354
+msgid "\"is valid date (dd/mm/yyyy)\" text"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:358
+msgid "\"is number\" text"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:362
+msgid "\"only digits\" text"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:366
+msgid "\"under maximum\" text"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:370
+msgid "\"over minimum\" text"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:396
+msgid "Form Processing and Payment Settings"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:400
+msgid "Submit Button and Thank You Page"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:404
+msgid "Display submit button?"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:416
+msgid "Thank you page (after sending the message)"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:425
+msgid "Payment Settings"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:430
+msgid "Request cost"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:436
+msgid "Currency"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:438
+msgid "United States dollar"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:438
+msgid "Pound sterling"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:438
+msgid "PayPal Currency Codes"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:443
+msgid "Base amount"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:444
+msgid ""
+"Minimum amount to charge. If the final price is lesser than this number, the "
+"base amount will be applied."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:449
+msgid "Product name"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:454
+msgid ""
+"Label for the \"<strong>Pay later</strong>\" option (for optional payments)"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:459
+msgid "Discount Codes"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:461
+msgid "Loading..."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:464
+msgid "Add new discount code"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:466
+msgid "Code"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:467 inc/cpcff_discounts.inc.php:232
+msgid "Discount"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:468 inc/cpcff_discounts.inc.php:239
+msgid "Percent"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:469 inc/cpcff_discounts.inc.php:239
+msgid "Fixed Value"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:472 inc/cpcff_discounts.inc.php:232
+msgid "Valid until"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:473
+msgid "Add"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:475
+msgid "Note: Expiration date based in server time. Server time now is"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:480
+msgid "When should be sent the notification-confirmation emails?"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:482
+msgid "When paid: AFTER receiving the payment notification"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:483
+msgid "Always: BEFORE receiving the payment notification"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:494
+msgid "Paypal Payment Configuration"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:499
+msgid "Enable Paypal Payments?"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:503
+msgid "Optional: This payment method + Pay Later"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:505
+msgid ""
+"Note: If \"Optional\" is selected, a radiobutton will appear in the form to "
+"select if the payment will be made with PayPal or not."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:507
+msgid "Label for the \"<strong>Pay with PayPal</strong>\" option"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:523
+msgid "Enable donation layout?"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:532
+msgid "Paypal email"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:537
+msgid "A $0 amount to pay means"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:539
+msgid "Let the user enter any amount at PayPal (ex: for a donation)"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:540
+msgid "Don't require any payment. Form is submitted skiping the PayPal page."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:546
+msgid "Paypal language"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:551
+msgid "Payment frequency"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:555
+msgid "One time payment (default option, user is billed only once)"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:556
+msgid "Bill the user every 1 month"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:557
+msgid "Bill the user every 3 months"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:558
+msgid "Bill the user every 6 months"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:559
+msgid "Bill the user every 12 months"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:567
+msgid "First period price (ex: include setup fee here if any)"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:569
+msgid "First period interval in days"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:573
+msgid ""
+"Number of times that subscription payments recur (keep \"Unlimited\" in most "
+"cases)"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:582
+msgid "Which field?"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:618
+msgid "Paypal prompt buyers for shipping address"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:622
+msgid "Do not prompt for an address"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:623
+msgid "Prompt for an address, but do not require one"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:624
+msgid "Prompt for an address and require one"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:636
+msgid ""
+"If you or your users do not receive the notification emails, they are "
+"probably being blocked by the web server. If so, install any of the SMTP "
+"connection plugins distributed through the WordPress directory, and "
+"configure it to use your hosting provider's SMTP server."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:644
+msgid "Form Processing / Email Settings"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:649
+msgid "Send email \"From\""
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:653
+msgid "From fixed email address indicated below - Recommended option"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:654
+msgid "From the email address indicated by the customer"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:657
+msgid ""
+"* If you select \"from fixed...\" the customer email address will appear in "
+"the \"to\" address when you hit \"reply\", this is the recommended setting "
+"to avoid mail server restrictions."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:659
+msgid ""
+"* If you select \"from customer email\" then the customer email will appear "
+"also visually when you receive the email, but this isn't supported by all "
+"hosting services, so this option isn't recommended in most cases."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:666
+msgid "\"From\" email"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:667
+msgid ""
+"This email is required if the \"From fixed email address\" option is "
+"selected, or it is enabled the email copy to the user."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:670
+msgid "Destination emails (comma separated)"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:678
+msgid "Include additional information?"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:684
+msgid ""
+"If the \"No\" option is selected the plugin won't capture the IP address of "
+"users."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:688
+msgid "Include attachments?"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:697 inc/cpcff_admin_int.inc.php:750
+msgid "Email format?"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:701 inc/cpcff_admin_int.inc.php:754
+msgid "Plain Text (default)"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:702 inc/cpcff_admin_int.inc.php:755
+msgid "HTML (use html in the textarea below)"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:708 inc/cpcff_admin_int.inc.php:761
+msgid ""
+"In case to select HTML in the Email Format, use <strong>&lt;br&gt;</strong> "
+"tags for the changes of lines."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:711 inc/cpcff_admin_int.inc.php:764
+msgid "Attach static file"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:714 inc/cpcff_admin_int.inc.php:767
+msgid "Select file"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:715
+msgid ""
+"Enter the path to a static file you wish to attach to the notification email."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:723
+msgid "Email Copy to User"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:727
+msgid "Send confirmation/thank you message to user?"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:737
+msgid "Email field on the form"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:741
+msgid ""
+"The list allows multi selection. The email fields should be marked "
+"explicitly. If the email field isn't marked it wont be taken in account."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:768
+msgid ""
+"Enter the path to a static file you wish to attach to the copy to user email."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:776
+msgid "Captcha Verification"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:780
+msgid "Use Captcha Verification?"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:791
+msgid "Width"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:793
+msgid "Height"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:795
+msgid "Chars"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:800
+msgid "Min font size"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:802
+msgid "Max font size"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:812
+msgid "Noise"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:814
+msgid "Noise Length"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:819
+msgid "Background"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:821
+msgid "Border"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:826
+msgid "Font"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:848
+msgid "Note"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:850
+msgid ""
+"To display the form in a post/page, enter your shortcode in the post/page "
+"content:"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:852
+msgid ""
+"The CFF plugin implements widgets and blocks to allow inserting the form "
+"visually with the most popular page builders such as Gutenberg Editor, "
+"Classic Editor, Elementor, Site Origin, Visual Composer, Beaver Builder, "
+"Divi, and for the other page builders insert the shortcode directly."
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:863 inc/cpcff_admin_int_list.inc.php:649
+msgid "Request Custom Modifications"
+msgstr ""
+
+#: inc/cpcff_admin_int.inc.php:863 inc/cpcff_admin_int_list.inc.php:649
+#: inc/cpcff_main.inc.php:246
+msgid "Help"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:61
+msgid "Default settings updated"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:84
+msgid "Item added"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:94
+#: inc/cpcff_admin_int_message_list.inc.php:181
+msgid "Item updated"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:101
+msgid "Item deleted"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:106
+msgid "Item duplicated/cloned"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:107
+msgid "Duplicate/Clone Error, the form cannot be cloned"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:165
+msgid "Troubleshoot settings updated"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:193
+msgid "Import action executed."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:197
+msgid "Error message: "
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:198
+msgid "Please, install the latest plugin update"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:203
+msgid "The file's content is not a valid serialized PHP object."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:208
+msgid "It is not possible to read the file's content."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:216
+msgid "The file is inaccessible."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:228
+msgid "Registering of Plugin"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:230
+msgid "Enter the buyer email address"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:234
+msgid "Register"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:235
+msgid ""
+"Registering the plugin activates the commercial features and the auto-update "
+"to get the latest version."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:316
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:324
+msgid "Are you sure you want to update these settings?"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:383
+msgid ""
+"Are you sure you want to modify existing forms?\\nWe recommend modifying the "
+"forms one by one."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:392
+msgid "Forms and Settings"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:393 inc/cpcff_admin_int_list.inc.php:522
+msgid "Marketplace"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:411
+msgid "Form Categories"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:413
+#: inc/cpcff_admin_int_message_list.inc.php:343
+msgid "All forms"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:425
+msgid "Form List / Items List"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:429
+msgid "in"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:429
+msgid "category"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:436
+#: inc/cpcff_admin_int_message_list.inc.php:385 inc/cpcff_widgets.inc.php:166
+msgid "ID"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:437
+msgid "Form Name"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:439
+msgid "Category/Shortcode"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:453 inc/cpcff_main.inc.php:245
+msgid "Settings"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:455
+msgid "Clone"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:458
+msgid "Category: "
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:469
+msgid "New Form"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:472
+msgid "Item Name"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:475
+msgid "Category"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:481
+msgid "Create Form"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:482
+msgid "From Template"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:489
+msgid "Default Settings"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:491
+msgid "Applies the default settings to new forms."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:493
+msgid "Default Template"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:508
+msgid "Activate Captcha by Default"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:509
+msgid "Display Submit Button by Default"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:511
+msgid "Apply To Existing Forms"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:511
+msgid "It will modify the settings of existing forms"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:520
+msgid "Add-Ons Settings"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:522
+msgid "For additional resources visit the plugin's"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:526
+msgid "Add-ons Area"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:532
+msgid "Activate/Deactivate Addons"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:540
+msgid "Troubleshoot Area & General Settings"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:544
+msgid ""
+"<strong>Important!</strong>: Use this area <strong>only</strong> if you are "
+"experiencing conflicts with third party plugins, with the theme scripts or "
+"with the character encoding."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:545
+msgid "Script load method"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:547
+msgid "Classic (Recommended)"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:548
+msgid "Direct"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:550
+msgid ""
+"* Change the script load method if the form doesn't appear in the public "
+"website."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:552
+msgid "Character encoding"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:554
+msgid "Keep current charset (Recommended)"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:555
+msgid "try this first"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:556
+msgid "Only from MySQL 5.5"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:559
+msgid ""
+"* Update the charset if you are getting problems displaying special/non-"
+"latin characters. After updated you need to edit the special characters "
+"again."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:567
+msgid "There is active an optimization plugin in WordPress"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:568
+msgid ""
+"* Tick the checkbox if there is an optimization plugin active on the "
+"website, and the forms are not visible."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:576
+msgid "Captcha image doesn't load"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:577
+msgid ""
+"* Tick the checkbox if the captcha code is not generated to call its script "
+"directly."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:579
+msgid "The emails contain invalid characters"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:580
+msgid "* Encodes the notification emails as ISO-8859-2 and base64."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:581
+msgid "Modify the eMails Headers"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:585
+msgid "Disable Form Revisions"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:587
+msgid "Activate Javascript Cache"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:589
+msgid "Activate Forms Cache"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:591
+msgid "Start Session as Soon as Possible"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:593
+msgid "Allows to access the forms directly"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:595
+msgid "Allows to access the forms from amp pages"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:597
+msgid "Prevents the Thank you page be cached"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:599
+msgid "Do not load the forms with crawlers"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:600
+msgid "* The forms are not loaded when website is being indexed by searchers."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:602
+msgid "Protect the forms against the spam bots"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:603
+msgid "Enter an unique field name"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:604
+msgid "* Adds a hidden text field to the forms to trap the spam bots."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:606
+msgid "Protect the forms with nonce"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:608
+msgid "UPDATE"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:614
+msgid "Import / Export Area"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:616
+msgid ""
+"Use this area <strong>only</strong> to <strong>import/export the form's "
+"structure to the plugin in other (external) websites</strong>. If what you "
+"want is to duplicate a form into this website then use the \"Clone\" button. "
+"If what you want is to export the submissions then go to the messages list "
+"for the selected form."
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:619
+msgid "Export this form structure and settings"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:626
+msgid "Export"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:632
+msgid "Import a form structure and settings (only <em>.cpfm</em> files )"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:633
+msgid "Import"
+msgstr ""
+
+#: inc/cpcff_admin_int_list.inc.php:643
+msgid "Calculated Fields Form Marketplace"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:23
+msgid "Editing entry"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:26
+msgid "Back to events list..."
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:89
+msgid "Entry updated"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:133
+msgid "There are no data associated to this submission"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:139
+msgid "The submission id is invalid or the submission does not exits"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:195
+#: inc/cpcff_admin_int_message_list.inc.php:202
+msgid "Item(s) deleted"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:277
+msgid "Are you sure that you want to delete these items?"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:287
+msgid ""
+"Are you sure that you want to delete all items? Please note that you will "
+"not be able to recover them."
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:303
+msgid "Are you sure that you want to delete this item?"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:319
+msgid "Calculated Fields Form - Message List"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:326
+msgid "This message list is from"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:326
+msgid "every form"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:334
+msgid "Search for"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:343
+msgid "In"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:346
+msgid "Only Paid"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:355
+msgid "Export to CSV"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:371
+msgid "&laquo; Previous"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:372
+msgid "Next &raquo;"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:390 inc/cpcff_widgets.inc.php:170
+msgid "Payment Info"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:434
+msgid "Form Page"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:447
+#: inc/cpcff_admin_int_message_list.inc.php:451 inc/cpcff_auxiliary.inc.php:806
+#: inc/cpcff_widgets.inc.php:213
+msgid "Paid"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:455 inc/cpcff_auxiliary.inc.php:806
+#: inc/cpcff_widgets.inc.php:213
+msgid "Not Paid"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:470
+msgid "Change to NOT PAID"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:472
+msgid "Change to PAID"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:474
+msgid "Edit (Raw)"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:487
+msgid "Delete all checked"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:487
+msgid "Print"
+msgstr ""
+
+#: inc/cpcff_admin_int_message_list.inc.php:487
+msgid "Delete all"
+msgstr ""
+
+#: inc/cpcff_amp.inc.php:155
+msgid "Click to expand"
+msgstr ""
+
+#: inc/cpcff_auto_update.inc.php:100 inc/cpcff_auto_update.inc.php:129
+msgid "The buyer email address is required to register the plugin."
+msgstr ""
+
+#: inc/cpcff_auto_update.inc.php:106 inc/cpcff_auto_update.inc.php:124
+msgid ""
+"The email address is not associated to the plugin. You must enter the same "
+"email address used to purchase the plugin."
+msgstr ""
+
+#: inc/cpcff_auto_update.inc.php:106
+msgid "You must wait a minute before trying again."
+msgstr ""
+
+#: inc/cpcff_auto_update.inc.php:108
+msgid "An error occurred in the plugin registration process:"
+msgstr ""
+
+#: inc/cpcff_auto_update.inc.php:114 inc/cpcff_auto_update.inc.php:119
+msgid "Valid email"
+msgstr ""
+
+#: inc/cpcff_auto_update.inc.php:138
+msgid ""
+"Remember to register your copy of the plugin from the plugin settings page."
+msgstr ""
+
+#: inc/cpcff_auto_update.inc.php:139
+msgid "To activate the advanced features, register your copy of the plugin."
+msgstr ""
+
+#: inc/cpcff_compatibility.inc.php:20
+msgid ""
+"There is active the <b>Breeze - WordPress Cache Plugin</b> plugin. If the "
+"forms are not visible, please tick the <i>\"There is active an optimization "
+"plugin in WordPress\"</i> and Purge the Breeze cache."
+msgstr ""
+
+#: inc/cpcff_compatibility.inc.php:26
+msgid ""
+"There is active the <b>Fast Velocity Minify</b> plugin. If the forms are not "
+"visible, please try disabling the <i>\"Disable minification on JS files\"</"
+"i> or <i>\"Disable JavaScript processing\"</i> options in the <b>Fast "
+"Velocity Minify</b> settings."
+msgstr ""
+
+#: inc/cpcff_compatibility.inc.php:32
+msgid ""
+"There is active the <b>W3 Total Cache</b> plugin. If the forms are not "
+"visible, please tick the checkbox."
+msgstr ""
+
+#: inc/cpcff_compatibility.inc.php:38
+msgid ""
+"There is active the <b>Autoptimize</b> plugin. If the forms are not visible, "
+"please try disabling the <i>\"Force JavaScript in &lt;head&gt;\"</i> option "
+"in the <b>Autoptimize</b> settings, or remove the jQuery file from the "
+"<i>\"Exclude scripts from Autoptimize\"</i> one."
+msgstr ""
+
+#: inc/cpcff_compatibility.inc.php:44
+msgid ""
+"There is active the <b>LiteSpeed Cache</b> plugin. If the forms are not "
+"visible, please try disabling the <i>\"JS Combine\"</i> option in the "
+"<b>Optimize</b> tab of <b>LiteSpeed Cache</b> settings."
+msgstr ""
+
+#: inc/cpcff_compatibility.inc.php:50
+msgid ""
+"There is active the <b>WP Rocket</b> plugin. If the forms are not visible, "
+"please try disabling the <i>\"Combine JavaScript files\"</i> option in the "
+"<b>FILE OPTIMIZATION</b> tab of <b>WP Rocket</b> settings, and remember to "
+"clear the website cache."
+msgstr ""
+
+#: inc/cpcff_compatibility.inc.php:56
+msgid ""
+"There is active the <b>SG Optimizer</b> plugin. If the forms are not "
+"visible, please try disabling the options: <i>\"Minify the HTML Output\"</i> "
+"and <i>\"Minify JavaScript Files\"</i> in the <b>SG Optimizer</b> settings, "
+"and remember to purge the website cache."
+msgstr ""
+
+#: inc/cpcff_compatibility.inc.php:62
+msgid ""
+"There is active the <b>Hummingbird</b> plugin. If the forms are not visible, "
+"check the <i>\"Hummingbird &gt; Asset Optimization\"</i> options. Make sure "
+"that jQuery or other required scripts are not configured to load after the "
+"page loads. Remember to purge the website cache, after edit the plugin "
+"settings."
+msgstr ""
+
+#: inc/cpcff_data_source.inc.php:766
+msgid "Invalid columns"
+msgstr ""
+
+#: inc/cpcff_data_source.inc.php:772
+msgid "The file has not a CSV valid format"
+msgstr ""
+
+#: inc/cpcff_data_source.inc.php:777
+msgid "The CSV file is not accessible"
+msgstr ""
+
+#: inc/cpcff_data_source.inc.php:782
+msgid "The CSV file is not specified"
+msgstr ""
+
+#: inc/cpcff_data_source.inc.php:787
+msgid "An error occurred processing the file"
+msgstr ""
+
+#: inc/cpcff_discounts.inc.php:120
+msgid "No enough privilegies to load this content."
+msgstr ""
+
+#: inc/cpcff_discounts.inc.php:232
+msgid "Cupon Code"
+msgstr ""
+
+#: inc/cpcff_discounts.inc.php:232
+msgid "Type"
+msgstr ""
+
+#: inc/cpcff_discounts.inc.php:247
+msgid "No discount codes listed for this form yet."
+msgstr ""
+
+#: inc/cpcff_main.inc.php:244
+msgid "Request custom changes"
+msgstr ""
+
+#: inc/cpcff_main.inc.php:264
+msgid "Insert Calculated Fields Form"
+msgstr ""
+
+#: inc/cpcff_main.inc.php:264
+msgid "Insert Calculated Fields Form Results"
+msgstr ""
+
+#: inc/cpcff_main.inc.php:264
+msgid "Insert Calculated Fields Form Results List"
+msgstr ""
+
+#: inc/cpcff_main.inc.php:264
+msgid "Create a JavaScript var from POST, GET, SESSION, or COOKIE var"
+msgstr ""
+
+#: inc/cpcff_main.inc.php:1020
+msgid "[details]"
+msgstr ""
+
+#: inc/cpcff_page_builders.inc.php:100
+msgid "Forms"
+msgstr ""
+
+#: inc/cpcff_page_builders.inc.php:101
+#: pagebuilders/beaverbuilder/cff/cff.inc.php:38
+#: pagebuilders/divi/cff.pb.php:50 pagebuilders/elementor/elementor.pb.php:70
+msgid "Additional attributes"
+msgstr ""
+
+#: inc/cpcff_page_builders.inc.php:102 inc/cpcff_widgets.inc.php:63
+#: pagebuilders/beaverbuilder/cff/cff.inc.php:43
+#: pagebuilders/elementor/elementor.pb.php:85
+#: pagebuilders/siteorigin/siteorigin-cpcff/fields/cff-button.class.php:12
+msgid "Edit form"
+msgstr ""
+
+#: inc/cpcff_public_int.inc.php:458
+msgid "If you are a human, do not fill in this field."
+msgstr ""
+
+#: inc/cpcff_widgets.inc.php:55
+#: pagebuilders/siteorigin/siteorigin-cpcff/siteorigin-cpcff.php:40
+msgid "Enter a class name to be assigned to the form (optional)"
+msgstr ""
+
+#: inc/cpcff_widgets.inc.php:57
+#: pagebuilders/siteorigin/siteorigin-cpcff/siteorigin-cpcff.php:44
+msgid ""
+"Pass additional attributes to the form. Ex: "
+"attr_name=\"attr_value\" (optional)"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cff/cff.inc.php:21
+msgid "Select the form and enter the additional attributes"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cff/cff.inc.php:24
+msgid "Form information"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cff/cff.inc.php:28
+#: pagebuilders/divi/cff.pb.php:35
+msgid "Select form"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cff/cff.inc.php:34
+#: pagebuilders/divi/cff.pb.php:44
+msgid "Class name"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cff/cff/cff.php:10
+msgid "Inserts a form"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar.inc.php:8
+msgid "Generate variable"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar.inc.php:11
+msgid "Variable attributes"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar.inc.php:15
+msgid "Enter the variable name"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar.inc.php:20
+msgid "Enter the default value"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar.inc.php:24
+#: pagebuilders/siteorigin/siteorigin-cpcff-variable/siteorigin-cpcff-variable.php:29
+msgid "Generate variable from"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar.inc.php:26
+msgid "Directly"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar.inc.php:27
+msgid "GET parameters"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar.inc.php:28
+msgid "POST parameters"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar.inc.php:29
+msgid "SESSION variables"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar.inc.php:30
+msgid "COOKIES variables"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar/cffvar.php:9
+msgid "Create variable"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/cffvar/cffvar/cffvar.php:10
+msgid "Create javascript variable"
+msgstr ""
+
+#: pagebuilders/divi/cff.pb.php:40
+msgid "Select the form."
+msgstr ""
+
+#: pagebuilders/elementor/elementor.pb.php:180
+msgid "Result Shortcode"
+msgstr ""
+
+#: pagebuilders/elementor/elementor.pb.php:187
+msgid "Result shortcode"
+msgstr ""
+
+#: pagebuilders/elementor/elementor.pb.php:193
+#: pagebuilders/elementor/elementor.pb.php:253
+#: pagebuilders/elementor/elementor.pb.php:313
+msgid "I need help [+]"
+msgstr ""
+
+#: pagebuilders/elementor/elementor.pb.php:240
+msgid "List Shortcode"
+msgstr ""
+
+#: pagebuilders/elementor/elementor.pb.php:247
+msgid "List shortcode"
+msgstr ""
+
+#: pagebuilders/elementor/elementor.pb.php:301
+msgid "Variable Shortcode"
+msgstr ""
+
+#: pagebuilders/elementor/elementor.pb.php:308
+msgid "Variable shortcode"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-result-list/siteorigin-cpcff-result-list.php:14
+msgid "Calculated Fields Form Result List Shortcode"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-result-list/siteorigin-cpcff-result-list.php:16
+msgid ""
+"Includes the shortcode for the list of results of the Calculated Fields Form"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-result-list/siteorigin-cpcff-result-list.php:24
+msgid "Calculated Fields Form Results List Shortcode"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-result/siteorigin-cpcff-result.php:14
+#: pagebuilders/siteorigin/siteorigin-cpcff-result/siteorigin-cpcff-result.php:24
+msgid "Calculated Fields Form Result Shortcode"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-result/siteorigin-cpcff-result.php:16
+msgid "Includes the shortcode for the results of the Calculated Fields Form"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-variable/siteorigin-cpcff-variable.php:14
+msgid "Calculated Fields Form, Variable Shortcode"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-variable/siteorigin-cpcff-variable.php:16
+msgid ""
+"Shortcode to generate a javascript variable from the url parameters (GET or "
+"POST), session variables, cookies, or define it directly"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-variable/siteorigin-cpcff-variable.php:24
+msgid "Variable name"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-variable/siteorigin-cpcff-variable.php:32
+msgid "Any source"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-variable/siteorigin-cpcff-variable.php:33
+msgid "GET parameter"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-variable/siteorigin-cpcff-variable.php:34
+msgid "POST parameter"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-variable/siteorigin-cpcff-variable.php:35
+msgid "Session variable"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-variable/siteorigin-cpcff-variable.php:36
+msgid "Cookie"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-variable/siteorigin-cpcff-variable.php:41
+msgid "Default value (used when variables are generated from a source)"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff-variable/siteorigin-cpcff-variable.php:46
+msgid "Value (value of the variable when it is generated directly)"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff/siteorigin-cpcff.php:24
+msgid "Calculated Fields Form Shortcode"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff/siteorigin-cpcff.php:26
+msgid "Includes the shortcode for inserting a form"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-cpcff/siteorigin-cpcff.php:34
+msgid "Form to include"
+msgstr ""

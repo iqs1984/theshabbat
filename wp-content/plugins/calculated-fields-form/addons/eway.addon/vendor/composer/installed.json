@@ -1,0 +1,65 @@
+{
+    "packages": [
+        {
+            "name": "eway/eway-rapid-php",
+            "version": "1.4.0",
+            "version_normalized": "1.4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eWAYPayment/eway-rapid-php.git",
+                "reference": "a3be37ad46f14038fb2c87d94ec9d8ad8560842a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eWAYPayment/eway-rapid-php/zipball/a3be37ad46f14038fb2c87d94ec9d8ad8560842a",
+                "reference": "a3be37ad46f14038fb2c87d94ec9d8ad8560842a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "internations/http-mock": "~0.7",
+                "jeremeamia/superclosure": "1.0.2",
+                "phpdocumentor/phpdocumentor": "~2.8",
+                "phpunit/phpunit": "4.8.*",
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "time": "2021-11-25T11:39:45+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Eway\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "eWAY",
+                    "homepage": "https://www.eway.com.au"
+                }
+            ],
+            "description": "eWAY Rapid PHP library",
+            "homepage": "https://www.eway.com.au",
+            "keywords": [
+                "eway",
+                "payment processing",
+                "payments",
+                "rapid"
+            ],
+            "support": {
+                "issues": "https://github.com/eWAYPayment/eway-rapid-php/issues",
+                "source": "https://github.com/eWAYPayment/eway-rapid-php/tree/v1.4.0"
+            },
+            "install-path": "../eway/eway-rapid-php"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

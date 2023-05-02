@@ -1,0 +1,5 @@
+/**/
+.cpcff-edd-wrapper .captcha,
+.cpcff-edd-wrapper .pbSubmit,
+.cpcff-edd .edd_go_to_checkout{display: none !important;}
+.cpcff-edd .edd-add-to-cart.edd-no-js{display: block;}

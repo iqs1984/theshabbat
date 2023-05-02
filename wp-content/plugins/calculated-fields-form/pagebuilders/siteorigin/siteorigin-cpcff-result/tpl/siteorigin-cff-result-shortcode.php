@@ -1,0 +1,1 @@
+<?php print !empty($instance['shortcode']) ? $instance['shortcode'] : '[CP_CALCULATED_FIELDS_RESULT]';

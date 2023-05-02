@@ -1,0 +1,4 @@
+[27-Feb-2023 05:47:53 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/tv2704q7vi3s/public_html/wp-includes/blocks/index.php on line 8
+[27-Feb-2023 05:47:53 UTC] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/tv2704q7vi3s/public_html/wp-includes/blocks/index.php on line 8
+[27-Feb-2023 05:47:53 UTC] PHP Warning:  require(ABSPATHWPINC/blocks/legacy-widget.php): failed to open stream: No such file or directory in /home/tv2704q7vi3s/public_html/wp-includes/blocks/index.php on line 11
+[27-Feb-2023 05:47:53 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/blocks/legacy-widget.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/tv2704q7vi3s/public_html/wp-includes/blocks/index.php on line 11

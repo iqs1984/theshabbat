@@ -1,0 +1,22 @@
+#fbuilder .redw30 {
+  width: 29.9% !important;
+}
+#fbuilder .redw70 {
+  width: 69.9% !important;
+}
+#field-c0-ppp input,
+#field-c1-ppp input,
+#field-c2-ppp input,
+#field-c3-ppp input,
+#field-c4-ppp input,
+#field-c5-ppp input,
+#field-c7-ppp input {
+width: 100% !important;
+}
+#field-c2-ppp input:first-child{margin-bottom:10px !important;}
+#fbuilder .left_aligned #pprol .column3,
+#fbuilder .right_aligned #pprol .column3,
+#fbuilder .left_aligned #pprol .column2,
+#fbuilder .right_aligned #pprol .column2 {
+    width: 100% !important;
+}

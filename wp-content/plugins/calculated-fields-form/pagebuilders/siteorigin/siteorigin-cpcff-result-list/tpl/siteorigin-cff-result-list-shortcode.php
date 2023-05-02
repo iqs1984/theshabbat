@@ -1,0 +1,1 @@
+<?php print !empty($instance['shortcode']) ? $instance['shortcode'] : '';
